@@ -38,7 +38,7 @@ namespace DbAPI.Migrations
                 {
                     b.Property<Guid>("GUID")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("char(36)");
+                        .HasColumnType("binary(16)");
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -56,7 +56,7 @@ namespace DbAPI.Migrations
                         .HasColumnType("int");
 
                     b.Property<Guid>("Customer_Id")
-                        .HasColumnType("char(36)");
+                        .HasColumnType("binary(16)");
 
                     b.Property<decimal>("Customer_Price")
                         .HasColumnType("decimal(65,30)");
@@ -93,7 +93,7 @@ namespace DbAPI.Migrations
                         .HasColumnType("int");
 
                     b.Property<Guid>("Customer_Id")
-                        .HasColumnType("char(36)");
+                        .HasColumnType("binary(16)");
 
                     b.Property<DateTime>("Date")
                         .HasColumnType("datetime(6)");
@@ -161,7 +161,7 @@ namespace DbAPI.Migrations
                         .HasColumnType("int");
 
                     b.Property<Guid>("Customer_Id")
-                        .HasColumnType("char(36)");
+                        .HasColumnType("binary(16)");
 
                     b.Property<DateTime>("Date")
                         .HasColumnType("datetime(6)");
@@ -174,7 +174,7 @@ namespace DbAPI.Migrations
                         .HasColumnType("decimal(65,30)");
 
                     b.Property<Guid>("Reference_Number")
-                        .HasColumnType("char(36)");
+                        .HasColumnType("binary(16)");
 
                     b.HasKey("Id");
 

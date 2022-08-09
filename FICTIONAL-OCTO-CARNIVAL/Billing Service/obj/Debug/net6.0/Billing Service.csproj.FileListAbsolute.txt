@@ -1,0 +1,26 @@
+C:\Users\krogoz\Documents\GitHub\Bloom-fictional-octo-carnival\FICTIONAL-OCTO-CARNIVAL\Billing Service\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\krogoz\Documents\GitHub\Bloom-fictional-octo-carnival\FICTIONAL-OCTO-CARNIVAL\Billing Service\bin\Debug\net6.0\appsettings.json
+C:\Users\krogoz\Documents\GitHub\Bloom-fictional-octo-carnival\FICTIONAL-OCTO-CARNIVAL\Billing Service\bin\Debug\net6.0\Billing Service.staticwebassets.runtime.json
+C:\Users\krogoz\Documents\GitHub\Bloom-fictional-octo-carnival\FICTIONAL-OCTO-CARNIVAL\Billing Service\bin\Debug\net6.0\Billing Service.exe
+C:\Users\krogoz\Documents\GitHub\Bloom-fictional-octo-carnival\FICTIONAL-OCTO-CARNIVAL\Billing Service\bin\Debug\net6.0\Billing Service.deps.json
+C:\Users\krogoz\Documents\GitHub\Bloom-fictional-octo-carnival\FICTIONAL-OCTO-CARNIVAL\Billing Service\bin\Debug\net6.0\Billing Service.runtimeconfig.json
+C:\Users\krogoz\Documents\GitHub\Bloom-fictional-octo-carnival\FICTIONAL-OCTO-CARNIVAL\Billing Service\bin\Debug\net6.0\Billing Service.dll
+C:\Users\krogoz\Documents\GitHub\Bloom-fictional-octo-carnival\FICTIONAL-OCTO-CARNIVAL\Billing Service\bin\Debug\net6.0\Billing Service.pdb
+C:\Users\krogoz\Documents\GitHub\Bloom-fictional-octo-carnival\FICTIONAL-OCTO-CARNIVAL\Billing Service\obj\Debug\net6.0\Billing Service.csproj.AssemblyReference.cache
+C:\Users\krogoz\Documents\GitHub\Bloom-fictional-octo-carnival\FICTIONAL-OCTO-CARNIVAL\Billing Service\obj\Debug\net6.0\Billing Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\krogoz\Documents\GitHub\Bloom-fictional-octo-carnival\FICTIONAL-OCTO-CARNIVAL\Billing Service\obj\Debug\net6.0\Billing Service.AssemblyInfoInputs.cache
+C:\Users\krogoz\Documents\GitHub\Bloom-fictional-octo-carnival\FICTIONAL-OCTO-CARNIVAL\Billing Service\obj\Debug\net6.0\Billing Service.AssemblyInfo.cs
+C:\Users\krogoz\Documents\GitHub\Bloom-fictional-octo-carnival\FICTIONAL-OCTO-CARNIVAL\Billing Service\obj\Debug\net6.0\Billing Service.csproj.CoreCompileInputs.cache
+C:\Users\krogoz\Documents\GitHub\Bloom-fictional-octo-carnival\FICTIONAL-OCTO-CARNIVAL\Billing Service\obj\Debug\net6.0\Billing Service.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\krogoz\Documents\GitHub\Bloom-fictional-octo-carnival\FICTIONAL-OCTO-CARNIVAL\Billing Service\obj\Debug\net6.0\Billing Service.RazorAssemblyInfo.cache
+C:\Users\krogoz\Documents\GitHub\Bloom-fictional-octo-carnival\FICTIONAL-OCTO-CARNIVAL\Billing Service\obj\Debug\net6.0\Billing Service.RazorAssemblyInfo.cs
+C:\Users\krogoz\Documents\GitHub\Bloom-fictional-octo-carnival\FICTIONAL-OCTO-CARNIVAL\Billing Service\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\krogoz\Documents\GitHub\Bloom-fictional-octo-carnival\FICTIONAL-OCTO-CARNIVAL\Billing Service\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\krogoz\Documents\GitHub\Bloom-fictional-octo-carnival\FICTIONAL-OCTO-CARNIVAL\Billing Service\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\krogoz\Documents\GitHub\Bloom-fictional-octo-carnival\FICTIONAL-OCTO-CARNIVAL\Billing Service\obj\Debug\net6.0\scopedcss\bundle\Billing Service.styles.css
+C:\Users\krogoz\Documents\GitHub\Bloom-fictional-octo-carnival\FICTIONAL-OCTO-CARNIVAL\Billing Service\obj\Debug\net6.0\scopedcss\projectbundle\Billing Service.bundle.scp.css
+C:\Users\krogoz\Documents\GitHub\Bloom-fictional-octo-carnival\FICTIONAL-OCTO-CARNIVAL\Billing Service\obj\Debug\net6.0\Billing Service.dll
+C:\Users\krogoz\Documents\GitHub\Bloom-fictional-octo-carnival\FICTIONAL-OCTO-CARNIVAL\Billing Service\obj\Debug\net6.0\refint\Billing Service.dll
+C:\Users\krogoz\Documents\GitHub\Bloom-fictional-octo-carnival\FICTIONAL-OCTO-CARNIVAL\Billing Service\obj\Debug\net6.0\Billing Service.pdb
+C:\Users\krogoz\Documents\GitHub\Bloom-fictional-octo-carnival\FICTIONAL-OCTO-CARNIVAL\Billing Service\obj\Debug\net6.0\Billing Service.genruntimeconfig.cache
+C:\Users\krogoz\Documents\GitHub\Bloom-fictional-octo-carnival\FICTIONAL-OCTO-CARNIVAL\Billing Service\obj\Debug\net6.0\ref\Billing Service.dll

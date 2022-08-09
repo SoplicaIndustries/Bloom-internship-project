@@ -1,6 +1,12 @@
-﻿using DbAPI.Data;
-using DbAPI.Models;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using DbAPI.Data;
+using DbAPI.Models;
 
 namespace DbAPI.Controllers
 {
@@ -8,61 +14,111 @@ namespace DbAPI.Controllers
     [ApiController]
     public class InvoicesController : ControllerBase
     {
-        private readonly ApplicationDbContext context;
+        private readonly ApplicationDbContext _context;
 
-        public InvoicesController(IConfiguration configuration, ApplicationDbContext _context)
+        public InvoicesController(ApplicationDbContext context)
         {
-            context = _context;
+            _context = context;
         }
+
+        // GET: api/Invoices
         [HttpGet]
-        public ActionResult<IEnumerable<Invoices>> Get()
+        public async Task<ActionResult<IEnumerable<Invoices>>> GetInvoices()
         {
-            return context.Invoices;
+          if (_context.Invoices == null)
+          {
+              return NotFound();
+          }
+            return await _context.Invoices.ToListAsync();
         }
 
+        // GET: api/Invoices/5
         [HttpGet("{id}")]
-        public ActionResult<Invoices> Get(int id)
+        public async Task<ActionResult<Invoices>> GetInvoices(int id)
         {
-            return context.Invoices.Find(id);
+          if (_context.Invoices == null)
+          {
+              return NotFound();
+          }
+            var invoices = await _context.Invoices.FindAsync(id);
+
+            if (invoices == null)
+            {
+                return NotFound();
+            }
+
+            return invoices;
         }
 
+        // PUT: api/Invoices/5
+        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
+        [HttpPut("{id}")]
+        public async Task<IActionResult> PutInvoices(int id, Invoices invoices)
+        {
+            if (id != invoices.Id)
+            {
+                return BadRequest();
+            }
+
+            _context.Entry(invoices).State = EntityState.Modified;
+
+            try
+            {
+                await _context.SaveChangesAsync();
+            }
+            catch (DbUpdateConcurrencyException)
+            {
+                if (!InvoicesExists(id))
+                {
+                    return NotFound();
+                }
+                else
+                {
+                    throw;
+                }
+            }
+
+            return NoContent();
+        }
+
+        // POST: api/Invoices
+        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public ActionResult Post(Invoices Invoices)
+        public async Task<ActionResult<Invoices>> PostInvoices(Invoices invoices)
         {
+          if (_context.Invoices == null)
+          {
+              return Problem("Entity set 'ApplicationDbContext.Invoices'  is null.");
+          }
+            _context.Invoices.Add(invoices);
+            await _context.SaveChangesAsync();
 
-            context.Invoices.Add(Invoices);
-            return Ok(context.SaveChanges());
-
+            return CreatedAtAction("GetInvoices", new { id = invoices.Id }, invoices);
         }
 
-
-
-        [HttpPut]
-        public ActionResult Put(Invoices goodItem)
-        {
-            var badItem = context.Invoices.Find(goodItem.Id);
-            context.Entry(badItem).CurrentValues.SetValues(goodItem);
-            return Ok(context.SaveChanges());
-        }
-
+        // DELETE: api/Invoices/5
         [HttpDelete("{id}")]
-        public ActionResult Delete(int id)
+        public async Task<IActionResult> DeleteInvoices(int id)
         {
-            var itemToDelete = context.Invoices.Find(id);
+            if (_context.Invoices == null)
+            {
+                return NotFound();
+            }
+            var invoices = await _context.Invoices.FindAsync(id);
+            if (invoices == null)
+            {
+                return NotFound();
+            }
 
-            if (itemToDelete == null) return BadRequest("no worker was found");
-            context.Invoices.Remove(itemToDelete);
+            _context.Invoices.Remove(invoices);
+            await _context.SaveChangesAsync();
 
-            return Ok(context.SaveChanges());
+            return NoContent();
         }
 
-
-
-
+        private bool InvoicesExists(int id)
+        {
+            return (_context.Invoices?.Any(e => e.Id == id)).GetValueOrDefault();
+        }
     }
-
-
-
-
 }
-
