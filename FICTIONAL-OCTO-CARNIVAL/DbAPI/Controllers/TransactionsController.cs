@@ -90,6 +90,7 @@ namespace DbAPI.Controllers
           {
               return Problem("Entity set 'ApplicationDbContext.Transactions'  is null.");
           }
+            
             _context.Transactions.Add(transactions);
             await _context.SaveChangesAsync();
 

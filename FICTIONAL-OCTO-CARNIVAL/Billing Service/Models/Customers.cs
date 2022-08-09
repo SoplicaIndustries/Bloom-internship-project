@@ -9,7 +9,5 @@ namespace DbAPI.Models
         [Key]
         public Guid GUID { get; set; }
 
-
-
     }
 }

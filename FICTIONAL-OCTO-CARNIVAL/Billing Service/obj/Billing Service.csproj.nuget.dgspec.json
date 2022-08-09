@@ -1,26 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\krogoz\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\Billing Service\\Billing Service.csproj": {}
+    "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\Billing Service\\Billing Service.csproj": {}
   },
   "projects": {
-    "C:\\Users\\krogoz\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\Billing Service\\Billing Service.csproj": {
+    "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\Billing Service\\Billing Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\krogoz\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\Billing Service\\Billing Service.csproj",
+        "projectUniqueName": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\Billing Service\\Billing Service.csproj",
         "projectName": "Billing Service",
-        "projectPath": "C:\\Users\\krogoz\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\Billing Service\\Billing Service.csproj",
-        "packagesPath": "C:\\Users\\krogoz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\krogoz\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\Billing Service\\obj\\",
+        "projectPath": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\Billing Service\\Billing Service.csproj",
+        "packagesPath": "C:\\Users\\pkurpiel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\Billing Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages"
         ],
         "configFilePaths": [
-          "C:\\Users\\krogoz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\pkurpiel\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -46,6 +44,16 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[108.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -261,3 +261,13 @@ C:\Users\krogoz\Documents\GitHub\Bloom-fictional-octo-carnival\FICTIONAL-OCTO-CA
 C:\Users\krogoz\Documents\GitHub\Bloom-fictional-octo-carnival\FICTIONAL-OCTO-CARNIVAL\DbAPI\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 C:\Users\krogoz\Documents\GitHub\Bloom-fictional-octo-carnival\FICTIONAL-OCTO-CARNIVAL\DbAPI\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\krogoz\Documents\GitHub\Bloom-fictional-octo-carnival\FICTIONAL-OCTO-CARNIVAL\DbAPI\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\pkurpiel\Documents\GitHub\Bloom-fictional-octo-carnival\FICTIONAL-OCTO-CARNIVAL\DbAPI\obj\Debug\net6.0\DbAPI.csproj.AssemblyReference.cache
+C:\Users\pkurpiel\Documents\GitHub\Bloom-fictional-octo-carnival\FICTIONAL-OCTO-CARNIVAL\DbAPI\obj\Debug\net6.0\DbAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pkurpiel\Documents\GitHub\Bloom-fictional-octo-carnival\FICTIONAL-OCTO-CARNIVAL\DbAPI\obj\Debug\net6.0\DbAPI.AssemblyInfoInputs.cache
+C:\Users\pkurpiel\Documents\GitHub\Bloom-fictional-octo-carnival\FICTIONAL-OCTO-CARNIVAL\DbAPI\obj\Debug\net6.0\DbAPI.AssemblyInfo.cs
+C:\Users\pkurpiel\Documents\GitHub\Bloom-fictional-octo-carnival\FICTIONAL-OCTO-CARNIVAL\DbAPI\obj\Debug\net6.0\DbAPI.csproj.CoreCompileInputs.cache
+C:\Users\pkurpiel\Documents\GitHub\Bloom-fictional-octo-carnival\FICTIONAL-OCTO-CARNIVAL\DbAPI\obj\Debug\net6.0\DbAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\pkurpiel\Documents\GitHub\Bloom-fictional-octo-carnival\FICTIONAL-OCTO-CARNIVAL\DbAPI\obj\Debug\net6.0\DbAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\pkurpiel\Documents\GitHub\Bloom-fictional-octo-carnival\FICTIONAL-OCTO-CARNIVAL\DbAPI\obj\Debug\net6.0\DbAPI.dll
+C:\Users\pkurpiel\Documents\GitHub\Bloom-fictional-octo-carnival\FICTIONAL-OCTO-CARNIVAL\DbAPI\obj\Debug\net6.0\refint\DbAPI.dll
+C:\Users\pkurpiel\Documents\GitHub\Bloom-fictional-octo-carnival\FICTIONAL-OCTO-CARNIVAL\DbAPI\obj\Debug\net6.0\DbAPI.pdb

@@ -9730,27 +9730,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\krogoz\\.nuget\\packages\\": {},
-    "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\pkurpiel\\.nuget\\packages\\": {},
+    "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\krogoz\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\DbAPI\\DbAPI.csproj",
+      "projectUniqueName": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\DbAPI\\DbAPI.csproj",
       "projectName": "DbAPI",
-      "projectPath": "C:\\Users\\krogoz\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\DbAPI\\DbAPI.csproj",
-      "packagesPath": "C:\\Users\\krogoz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\krogoz\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\DbAPI\\obj\\",
+      "projectPath": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\DbAPI\\DbAPI.csproj",
+      "packagesPath": "C:\\Users\\pkurpiel\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\DbAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages"
       ],
       "configFilePaths": [
-        "C:\\Users\\krogoz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\pkurpiel\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

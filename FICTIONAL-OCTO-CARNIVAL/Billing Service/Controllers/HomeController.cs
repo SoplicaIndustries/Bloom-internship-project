@@ -1,4 +1,4 @@
-﻿using Billing_Service.Models;
+﻿using DbAPI.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
@@ -15,7 +15,9 @@ namespace Billing_Service.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            List<Customers> CustomersList = CustomerController_.Get();
+
+            return View(CustomersList);
         }
 
         public IActionResult Privacy()
@@ -23,10 +25,6 @@ namespace Billing_Service.Controllers
             return View();
         }
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-        }
+
     }
 }
