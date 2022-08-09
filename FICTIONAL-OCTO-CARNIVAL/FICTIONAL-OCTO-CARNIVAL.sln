@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbAPI", "DbAPI\DbAPI.csproj", "{B235F4DE-E5E3-4313-BE10-0CBF52FC4B4E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B235F4DE-E5E3-4313-BE10-0CBF52FC4B4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B235F4DE-E5E3-4313-BE10-0CBF52FC4B4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B235F4DE-E5E3-4313-BE10-0CBF52FC4B4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B235F4DE-E5E3-4313-BE10-0CBF52FC4B4E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7BA3973A-E092-429C-965D-0BFA94F4915E}
+	EndGlobalSection
+EndGlobal
