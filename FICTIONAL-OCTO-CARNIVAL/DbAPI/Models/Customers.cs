@@ -7,7 +7,7 @@ namespace DbAPI.Models
 
         public string Name { get; set; }
         [Key]
-        public Guid GUID { get; set; }
+        public Guid Id { get; set; }
 
 
 

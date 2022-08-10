@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
+﻿using DbAPI.Data;
+using DbAPI.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using DbAPI.Data;
-using DbAPI.Models;
 
 namespace DbAPI.Controllers
 {
@@ -25,21 +20,21 @@ namespace DbAPI.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Products>>> GetProducts()
         {
-          if (_context.Products == null)
-          {
-              return NotFound();
-          }
+            if (_context.Products == null)
+            {
+                return NotFound();
+            }
             return await _context.Products.ToListAsync();
         }
 
         // GET: api/Products/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<Products>> GetProducts(int id)
+        public async Task<ActionResult<Products>> GetProducts(Guid id)
         {
-          if (_context.Products == null)
-          {
-              return NotFound();
-          }
+            if (_context.Products == null)
+            {
+                return NotFound();
+            }
             var products = await _context.Products.FindAsync(id);
 
             if (products == null)
@@ -53,13 +48,13 @@ namespace DbAPI.Controllers
         // PUT: api/Products/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutProducts(int id, Products products)
+        public async Task<IActionResult> PutProducts(Guid id, Products products)
         {
             if (id != products.Id)
             {
                 return BadRequest();
             }
-
+            products.Modify_Date = DateTime.Now;
             _context.Entry(products).State = EntityState.Modified;
 
             try
@@ -86,10 +81,13 @@ namespace DbAPI.Controllers
         [HttpPost]
         public async Task<ActionResult<Products>> PostProducts(Products products)
         {
-          if (_context.Products == null)
-          {
-              return Problem("Entity set 'ApplicationDbContext.Products'  is null.");
-          }
+            if (_context.Products == null)
+            {
+                return Problem("Entity set 'ApplicationDbContext.Products'  is null.");
+            }
+            products.Id = new Guid();
+            products.Create_Date = DateTime.Now;
+            products.Modify_Date = DateTime.Now;
             _context.Products.Add(products);
             await _context.SaveChangesAsync();
 
@@ -98,7 +96,7 @@ namespace DbAPI.Controllers
 
         // DELETE: api/Products/5
         [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteProducts(int id)
+        public async Task<IActionResult> DeleteProducts(Guid id)
         {
             if (_context.Products == null)
             {
@@ -116,7 +114,7 @@ namespace DbAPI.Controllers
             return NoContent();
         }
 
-        private bool ProductsExists(int id)
+        private bool ProductsExists(Guid id)
         {
             return (_context.Products?.Any(e => e.Id == id)).GetValueOrDefault();
         }

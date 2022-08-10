@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
+﻿using DbAPI.Data;
+using DbAPI.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using DbAPI.Data;
-using DbAPI.Models;
 
 namespace DbAPI.Controllers
 {
@@ -25,10 +20,10 @@ namespace DbAPI.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Customers>>> GetCustomers()
         {
-          if (_context.Customers == null)
-          {
-              return NotFound();
-          }
+            if (_context.Customers == null)
+            {
+                return NotFound();
+            }
             return await _context.Customers.ToListAsync();
         }
 
@@ -36,10 +31,10 @@ namespace DbAPI.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<Customers>> GetCustomers(Guid id)
         {
-          if (_context.Customers == null)
-          {
-              return NotFound();
-          }
+            if (_context.Customers == null)
+            {
+                return NotFound();
+            }
             var customers = await _context.Customers.FindAsync(id);
 
             if (customers == null)
@@ -55,7 +50,7 @@ namespace DbAPI.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> PutCustomers(Guid id, Customers customers)
         {
-            if (id != customers.GUID)
+            if (id != customers.Id)
             {
                 return BadRequest();
             }
@@ -86,14 +81,15 @@ namespace DbAPI.Controllers
         [HttpPost]
         public async Task<ActionResult<Customers>> PostCustomers(Customers customers)
         {
-          if (_context.Customers == null)
-          {
-              return Problem("Entity set 'ApplicationDbContext.Customers'  is null.");
-          }
+            if (_context.Customers == null)
+            {
+                return Problem("Entity set 'ApplicationDbContext.Customers'  is null.");
+            }
+            customers.Id = new Guid();
             _context.Customers.Add(customers);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetCustomers", new { id = customers.GUID }, customers);
+            return CreatedAtAction("GetCustomers", new { id = customers.Id }, customers);
         }
 
         // DELETE: api/Customers/5
@@ -118,7 +114,7 @@ namespace DbAPI.Controllers
 
         private bool CustomersExists(Guid id)
         {
-            return (_context.Customers?.Any(e => e.GUID == id)).GetValueOrDefault();
+            return (_context.Customers?.Any(e => e.Id == id)).GetValueOrDefault();
         }
     }
 }

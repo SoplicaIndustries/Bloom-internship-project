@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <style>
+.parent {
+display: grid;
+grid-template-columns: repeat(10, 1fr);
+grid-template-rows: repeat(15, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+height:100vh;
+}
+
+.menu{
+    
+}
+menu:hover{
+    font-weight:800;
+}
+.div1 { grid-area: 2 / 1 / 16 / 2;background-color:#2699fb; }
+.div2 { grid-area: 1 / 1 / 2 / 11; background-color:#2699fb;}
+.div3 { grid-area: 2 / 2 / 16 / 11;padding:10%; }
+</style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>WebPanel</title>
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+    @* Uncomment to use the HtmlEditor control *@
+    @* <script src="https://unpkg.com/devextreme-quill@21_2/dist/dx-quill.min.js"></script> *@
+
+    <link rel="stylesheet" href="~/css/vendor.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/Site.css" />
+    <script src="~/js/vendor.js" asp-append-version="true"></script>
+</head>
+<body>
+  <div class="parent">
+
+<div class="div1">
+<div class="Menu">
+<div>
+    <a href="#">Transactions</a>
+</div>
+  <div>
+    <a href="#">Invoices</a>
+</div>
+<div>
+    <a href="#">Products</a>
+</div>
+<div>
+    <a href="#">Customers</a>
+</div>
+</div>
+
+
+
+
+</div>
+
+<div class="div2"> 
+    <div>
+         Billing Service
+    </div>
+   <div>
+       Balance: {value}
+   </div>
+   <div>
+       <img />
+   </div>
+
+</div>
+<div class="div3"> @RenderBody()</div>
+</body>
+
+</html>

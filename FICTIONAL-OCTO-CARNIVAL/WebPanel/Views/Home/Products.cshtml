@@ -1,0 +1,43 @@
+@using DbAPI.Models
+@using WebPanel.Models
+
+<h2>Home</h2>
+<style>
+    .kurwa{
+          text-align: center!important  
+    }
+    kurwa{
+          text-align: center!important  
+    }
+    #kurwa{
+  text-align: center!important  
+    }
+
+
+
+    td[role=columnheader] {  
+    text-align: center!important;
+    font-weight:700;
+    color:black;
+    }
+
+</style>
+@(Html.DevExtreme().DataGrid<Products>()
+    .ShowBorders(true)
+    .DataSource(d => d.Mvc().Controller("Product").LoadMethod("Get").Key("Id").LoadAction("Get"))
+    .Columns(columns => {
+        columns.AddFor(m => m.Name).Width("23%");
+        columns.AddFor(m => m.Description).Width("31%");
+        columns.AddFor(m => m.UnitOfUsage).Width("13%");
+         columns.AddFor(m => m.Price).Width("7%");
+        columns.AddFor(m => m.Create_Date).Width("13%").CssClass("kurwa");
+        columns.AddFor(m => m.Modify_Date).Width("13%").CssClass("kurwa");
+   
+    })
+    .Paging(p => p.PageSize(10))
+    .FilterRow(f => f.Visible(false))
+    .GroupPanel(p => p.Visible(true))
+    .ShowColumnLines(true)
+    .ShowRowLines(true)
+
+    )

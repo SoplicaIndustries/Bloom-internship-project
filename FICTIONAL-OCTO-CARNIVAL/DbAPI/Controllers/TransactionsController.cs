@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
+﻿using DbAPI.Data;
+using DbAPI.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using DbAPI.Data;
-using DbAPI.Models;
 
 namespace DbAPI.Controllers
 {
@@ -25,21 +20,21 @@ namespace DbAPI.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Transactions>>> GetTransactions()
         {
-          if (_context.Transactions == null)
-          {
-              return NotFound();
-          }
+            if (_context.Transactions == null)
+            {
+                return NotFound();
+            }
             return await _context.Transactions.ToListAsync();
         }
 
         // GET: api/Transactions/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<Transactions>> GetTransactions(int id)
+        public async Task<ActionResult<Transactions>> GetTransactions(Guid id)
         {
-          if (_context.Transactions == null)
-          {
-              return NotFound();
-          }
+            if (_context.Transactions == null)
+            {
+                return NotFound();
+            }
             var transactions = await _context.Transactions.FindAsync(id);
 
             if (transactions == null)
@@ -53,7 +48,7 @@ namespace DbAPI.Controllers
         // PUT: api/Transactions/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutTransactions(int id, Transactions transactions)
+        public async Task<IActionResult> PutTransactions(Guid id, Transactions transactions)
         {
             if (id != transactions.Id)
             {
@@ -86,11 +81,12 @@ namespace DbAPI.Controllers
         [HttpPost]
         public async Task<ActionResult<Transactions>> PostTransactions(Transactions transactions)
         {
-          if (_context.Transactions == null)
-          {
-              return Problem("Entity set 'ApplicationDbContext.Transactions'  is null.");
-          }
-            
+            if (_context.Transactions == null)
+            {
+                return Problem("Entity set 'ApplicationDbContext.Transactions'  is null.");
+            }
+            transactions.Id = new Guid();
+            transactions.Date = DateTime.Now;
             _context.Transactions.Add(transactions);
             await _context.SaveChangesAsync();
 
@@ -99,7 +95,7 @@ namespace DbAPI.Controllers
 
         // DELETE: api/Transactions/5
         [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteTransactions(int id)
+        public async Task<IActionResult> DeleteTransactions(Guid id)
         {
             if (_context.Transactions == null)
             {
@@ -117,7 +113,7 @@ namespace DbAPI.Controllers
             return NoContent();
         }
 
-        private bool TransactionsExists(int id)
+        private bool TransactionsExists(Guid id)
         {
             return (_context.Transactions?.Any(e => e.Id == id)).GetValueOrDefault();
         }

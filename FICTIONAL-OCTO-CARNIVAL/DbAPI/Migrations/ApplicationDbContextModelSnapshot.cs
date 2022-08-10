@@ -36,7 +36,7 @@ namespace DbAPI.Migrations
 
             modelBuilder.Entity("DbAPI.Models.Customers", b =>
                 {
-                    b.Property<Guid>("GUID")
+                    b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("binary(16)");
 
@@ -44,7 +44,7 @@ namespace DbAPI.Migrations
                         .IsRequired()
                         .HasColumnType("longtext");
 
-                    b.HasKey("GUID");
+                    b.HasKey("Id");
 
                     b.ToTable("Customers");
                 });
@@ -116,9 +116,9 @@ namespace DbAPI.Migrations
 
             modelBuilder.Entity("DbAPI.Models.Products", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
+                        .HasColumnType("binary(16)");
 
                     b.Property<DateTime>("Create_Date")
                         .HasColumnType("datetime(6)");
@@ -150,12 +150,12 @@ namespace DbAPI.Migrations
 
             modelBuilder.Entity("DbAPI.Models.Transactions", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
+                        .HasColumnType("binary(16)");
 
-                    b.Property<int>("Balance_After")
-                        .HasColumnType("int");
+                    b.Property<decimal>("Balance_After")
+                        .HasColumnType("decimal(65,30)");
 
                     b.Property<int>("Currency_Id")
                         .HasColumnType("int");
