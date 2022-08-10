@@ -1,11 +1,10 @@
-﻿using DbAPI.Models;
+﻿using WebPanel.Models;
 using DevExtreme.AspNet.Data;
 using DevExtreme.AspNet.Mvc;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using RestSharp;
-
-namespace Billing_Service.Controllers
+namespace WebPanel.Controllers
 {
     public class CustomerController : Controller
     {
@@ -57,8 +56,16 @@ namespace Billing_Service.Controllers
 
         }
 
+       public static List<Customers> GetCustomers()
+        {
+            var client = new RestClient();
+            var request = new RestRequest("http://localhost:5223/api/Customers", Method.Get);
+            var response = client.Execute(request);
+            List<Customers> CustomerList = JsonConvert.DeserializeObject<List<Customers>>(response.Content);
 
-    
+            return CustomerList;
+        }
+
 
 
 

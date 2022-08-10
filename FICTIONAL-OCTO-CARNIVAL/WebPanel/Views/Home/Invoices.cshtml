@@ -1,0 +1,41 @@
+﻿
+@using WebPanel.Models
+<h2>Invoices</h2>
+<style>
+    .kurwa{
+          text-align: center!important  
+    }
+    kurwa{
+          text-align: center!important  
+    }
+    #kurwa{
+  text-align: center!important  
+    }
+
+
+
+    td[role=columnheader] {  
+    text-align: center!important;
+    font-weight:700;
+    color:black;
+    }
+
+</style>
+@(Html.DevExtreme().DataGrid<Invoices>()
+    .ID("ekes")
+    .ShowBorders(true)
+    .DataSource(d => d.Mvc().Controller("Invoices").LoadMethod("Get").Key("Id").LoadAction("Get"))
+    .Columns(columns => {
+        columns.AddFor(m => m.InvoiceNo).Width("55%");
+        columns.AddFor(m => m.Date).Width("17%");
+        columns.AddFor(m => m.Price).Width("17%");
+         columns.AddFor(m => m.Document_Path).Width("11%");
+   
+    })
+    .Paging(p => p.PageSize(10))
+    .FilterRow(f => f.Visible(false))
+    .GroupPanel(p => p.Visible(false))
+    .ShowColumnLines(true)
+    .ShowRowLines(true)
+       .Height("90%")
+    )

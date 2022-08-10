@@ -1,11 +1,11 @@
-﻿using DbAPI.Models;
+﻿using WebPanel.Models;
 using DevExtreme.AspNet.Data;
 using DevExtreme.AspNet.Mvc;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using RestSharp;
 
-namespace Billing_Service.Controllers
+namespace WebPanel.Controllers
 {
     public class CurrencyController : Controller
     {

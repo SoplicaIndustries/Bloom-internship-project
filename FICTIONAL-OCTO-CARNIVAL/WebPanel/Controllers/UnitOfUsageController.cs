@@ -1,9 +1,11 @@
-﻿using DbAPI.Models;
+﻿using WebPanel.Models;
+using DevExtreme.AspNet.Data;
+using DevExtreme.AspNet.Mvc;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using RestSharp;
 
-namespace Billing_Service.Controllers
+namespace WebPanel.Controllers
 {
     public class UnitOfUsageController : Controller
     {
@@ -18,6 +20,20 @@ namespace Billing_Service.Controllers
 
 
             return UnitsList;
+        }
+
+        [HttpGet]
+        public static object Get2(DataSourceLoadOptions loadOptions)
+        {
+            var client = new RestClient();
+            var request = new RestRequest("http://localhost:5223/api/UnitsOfUsages", Method.Get);
+            var response = client.Execute(request);
+            List<UnitsOfUsage> UnitsList = JsonConvert.DeserializeObject<List<UnitsOfUsage>>(response.Content);
+
+
+
+
+            return DataSourceLoader.Load(UnitsList, loadOptions);
         }
     }
 }

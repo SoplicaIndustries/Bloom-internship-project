@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace DbAPI.Models
+namespace WebPanel.Models
 {
     public class Currency
     {

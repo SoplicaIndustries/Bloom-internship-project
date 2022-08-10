@@ -1,8 +1,8 @@
-﻿using DbAPI.Models;
+﻿using WebPanel.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
-namespace Billing_Service.Controllers
+namespace WebPanel.Controllers
 {
     public class HomeController : Controller
     {

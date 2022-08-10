@@ -13,14 +13,31 @@ height:100vh;
 }
 
 .menu{
-    
+    display: flex;
+    justify-content: center;
 }
-menu:hover{
-    font-weight:800;
+a{
+    text-decoration: none!important;
+    color: whitesmoke!important;
+
+
 }
-.div1 { grid-area: 2 / 1 / 16 / 2;background-color:#2699fb; }
-.div2 { grid-area: 1 / 1 / 2 / 11; background-color:#2699fb;}
-.div3 { grid-area: 2 / 2 / 16 / 11;padding:10%; }
+
+a:hover{
+    color:white;
+    font-weight: bold;
+}
+.menu{
+    margin-top: 5%!important;
+}
+
+.right-display{
+    right: 0%;
+}
+
+.div1 { grid-area: 2 / 1 / 16 / 2;background-color:#2699fb; display: flex; justify-content: center; color: white;}
+.div2 { grid-area: 1 / 1 / 2 / 11; background-color:#2699fb; display: flex; align-items: center; color: white;}
+.div3 { grid-area: 2 / 2 / 16 / 11;padding:5%; }
 </style>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
@@ -66,8 +83,9 @@ menu:hover{
     <div>
          Billing Service
     </div>
-   <div>
+   <div class="right-display">
        Balance: {value}
+       <i class="dx-icon-card"></i>
    </div>
    <div>
        <img />

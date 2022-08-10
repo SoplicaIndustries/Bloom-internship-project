@@ -173,6 +173,9 @@ namespace DbAPI.Migrations
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(65,30)");
 
+                    b.Property<Guid>("Product_Id")
+                        .HasColumnType("binary(16)");
+
                     b.Property<Guid>("Reference_Number")
                         .HasColumnType("binary(16)");
 

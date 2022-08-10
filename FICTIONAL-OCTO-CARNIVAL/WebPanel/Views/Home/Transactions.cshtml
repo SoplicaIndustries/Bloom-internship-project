@@ -1,0 +1,45 @@
+﻿
+@using WebPanel.Models
+
+<h2>Transactions</h2>
+<style>
+    .kurwa{
+          text-align: center!important  
+    }
+    kurwa{
+          text-align: center!important  
+    }
+    #kurwa{
+  text-align: center!important  
+    }
+
+
+
+    td[role=columnheader] {  
+    text-align: center!important;
+    font-weight:700;
+    color:black;
+    }
+
+</style>
+@(Html.DevExtreme().DataGrid<Transactions>()
+    .ShowBorders(true)
+    .DataSource(d => d.Mvc().Controller("Transactions").LoadMethod("Get").Key("Id").LoadAction("Get"))
+    .Columns(columns => {
+            columns.AddFor(m => m.Description).Width("32.5%");
+        columns.AddFor(m => m.Price).Width("10%");
+        columns.AddFor(m => m.Balance_After).Width("10%");
+        columns.AddFor(m => m.Date).Width("15%").CssClass("kurwa");
+        columns.AddFor(m => m.Reference_Number).Width("32.5%").CssClass("kurwa");
+   
+    })
+    .Paging(p => p.PageSize(10))
+    .FilterRow(f => f.Visible(false))
+    .GroupPanel(p => p.Visible(false))
+    .ShowColumnLines(true)
+    .ShowRowLines(true)
+    .Height("90%")
+    )
+    )
+
+

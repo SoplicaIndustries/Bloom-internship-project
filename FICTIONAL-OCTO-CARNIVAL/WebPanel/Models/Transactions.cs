@@ -1,12 +1,12 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace DbAPI.Models
+namespace WebPanel.Models
 {
     public class Transactions
     {
-        [Key]
-        public int Id { get; set; }
+          [Key]
+        public Guid Id { get; set; }
         public string Description { get; set; }
         public decimal Price { get; set; }
         public decimal Balance_After { get; set; }
@@ -16,7 +16,7 @@ namespace DbAPI.Models
         public int Currency_Id { get; set; }
         [ForeignKey("Customers")]
         public Guid Customer_Id { get; set; }
-
+        public Guid Product_Id { get; set; }
 
 
 
