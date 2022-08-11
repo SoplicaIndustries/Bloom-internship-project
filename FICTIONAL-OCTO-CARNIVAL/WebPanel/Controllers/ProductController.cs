@@ -1,13 +1,15 @@
-﻿using WebPanel.Models;
-using DevExtreme.AspNet.Data;
+﻿using DevExtreme.AspNet.Data;
 using DevExtreme.AspNet.Mvc;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using RestSharp;
+using WebPanel.Models;
 namespace WebPanel.Controllers
 {
     public class ProductController : Controller
     {
+
+
 
         [HttpGet]
         public object Get(DataSourceLoadOptions loadOptions)
@@ -15,19 +17,7 @@ namespace WebPanel.Controllers
             var client = new RestClient();
             var request = new RestRequest("http://localhost:5223/api/Products", Method.Get);
             var response = client.Execute(request);
-            List<Products> ProductsList = JsonConvert.DeserializeObject<List<Products>>(response.Content);
-            List<UnitsOfUsage> Units = UnitOfUsageController.Get();
-
-            foreach(Products Product in ProductsList)
-            {
-                UnitsOfUsage Unit;
-                Unit = Units.Find(c => c.Id == Product.UnitOfUsageId);
-                Product.UnitOfUsage = Unit.Name;
-
-            }
-
-
-
+            IEnumerable<Products> ProductsList = JsonConvert.DeserializeObject<IEnumerable<Products>>(response.Content);
 
 
             return DataSourceLoader.Load(ProductsList, loadOptions);
@@ -35,34 +25,63 @@ namespace WebPanel.Controllers
 
 
 
+
+
         [HttpPost]
-        public static void Post(Products product)
+        public IActionResult Post(string values)
         {
             var client = new RestClient();
             var request = new RestRequest("http://localhost:5223/api/Products/", Method.Post);
             request.AddHeader("Content-Type", "application/json");
-            request.AddParameter("application/json", product, ParameterType.RequestBody);
+            request.AddParameter("application/json", values, ParameterType.RequestBody);
             var response = client.Execute(request);
+            return Ok();
         }
 
-        [HttpPut("{id}")]
+        [HttpPut]
 
-        public static void Put(Guid id, Products product)
+        public IActionResult Put(Guid key, string values)
         {
-            var client = new RestClient();
-            var request = new RestRequest("http://localhost:5223/api/Products/"+id, Method.Put);
-            request.AddHeader("Content-Type", "application/json");
-            request.AddParameter("application/json", product, ParameterType.RequestBody);
-            var response = client.Execute(request);
+
+
+
+
+            if (values != String.Empty)
+            {
+                var client = new RestClient();
+                var request = new RestRequest("http://localhost:5223/api/Products", Method.Get);
+                var response = client.Execute(request);
+                IEnumerable<Products> ProductsList = JsonConvert.DeserializeObject<IEnumerable<Products>>(response.Content);
+
+
+                var ToUpdate = ProductsList.FirstOrDefault(w => w.Id == key);
+
+                JsonConvert.PopulateObject(values, ToUpdate);
+
+
+
+
+                request = new RestRequest($"http://localhost:5223/api/Products/{key}", Method.Put);
+                request.AddHeader("Content-Type", "application/json");
+                string body = Newtonsoft.Json.JsonConvert.SerializeObject(ToUpdate);
+                request.AddParameter("application/json", body, ParameterType.RequestBody);
+                response = client.Execute(request);
+
+
+
+
+                return Ok();
+            }
+            return Ok();
         }
 
         [HttpDelete]
-        public static void Delete(int Id)
+        public IActionResult Delete(Guid key)
         {
             var client = new RestClient();
-            var request = new RestRequest($"http://localhost:5223/api/Products/{Id}", Method.Delete);
+            var request = new RestRequest($"http://localhost:5223/api/Products/{key}", Method.Delete);
             var response = client.Execute(request);
-
+            return Ok();
 
         }
 

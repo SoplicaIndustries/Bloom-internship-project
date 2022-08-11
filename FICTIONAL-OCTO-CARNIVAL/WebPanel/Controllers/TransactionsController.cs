@@ -1,9 +1,9 @@
-﻿using WebPanel.Models;
-using DevExtreme.AspNet.Data;
+﻿using DevExtreme.AspNet.Data;
 using DevExtreme.AspNet.Mvc;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using RestSharp;
+using WebPanel.Models;
 
 namespace WebPanel.Controllers
 {
@@ -18,22 +18,46 @@ namespace WebPanel.Controllers
             var response = client.Execute(request);
             List<Transactions> TransactionsList = JsonConvert.DeserializeObject<List<Transactions>>(response.Content);
             List<Customers> CustomerList = CustomerController.GetCustomers();
-
-            foreach(Transactions trasaction in TransactionsList)
-            {
-                Transactions trans;
-                Customers customer;
-                customer = CustomerList.Find(c => c.Id == trasaction.Customer_Id);
-                
+            Guid guid = new Guid("3fa85f62-5717-4562-b3fc-2c963f66afa6");
+            List<Transactions> Klar = TransactionsList.FindAll(c => c.Customer_Id == guid);
 
 
+            return DataSourceLoader.Load(Klar, loadOptions);
+        }
 
-            }
 
+        [HttpGet]
+        public object GetTransactionById(Guid Id, DataSourceLoadOptions options)
+        {
+            var client = new RestClient();
+            var request = new RestRequest("http://localhost:5223/api/Transactions", Method.Get);
+            var response = client.Execute(request);
+            List<Transactions> TransactionsList = JsonConvert.DeserializeObject<List<Transactions>>(response.Content);
+            List<Transactions> filteredList = TransactionsList.FindAll(c => c.Customer_Id == Id);
+            return DataSourceLoader.Load(filteredList, options);
+        }
+       
+        public void PostBalance(decimal deposit)
+        {
+            Guid guid = new Guid("3fa85f62-5717-4562-b3fc-2c963f66afa6");
+            Customers customer;
+            List<Customers> ListCustomers = CustomerController.GetCustomers();
+            decimal Balance = CustomerController.GetBalance(guid);
 
-            return DataSourceLoader.Load(TransactionsList, loadOptions);
+            Transactions trans = new Transactions();
+            trans.Balance_After = Balance+deposit;
+            var client = new RestClient();
+            var request = new RestRequest("http://localhost:5223/api/Transactions", Method.Post);
+            
+
+            string ToSend = JsonConvert.SerializeObject(trans);
+
+            request.AddHeader("Content-Type", "application/json");
+            request.AddParameter("application/json", ToSend, ParameterType.RequestBody);
+            var response = client.Execute(request);
+
         }
 
     }
-    
+
 }

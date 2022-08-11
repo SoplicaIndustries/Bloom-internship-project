@@ -1,4 +1,3 @@
-
 @using WebPanel.Models
 
 <h2>Customers</h2>
@@ -12,64 +11,64 @@
     #kurwa{
   text-align: center!important  
     }
-
-
-
     td[role=columnheader] {  
     text-align: center!important;
     font-weight:700;
     color:black;
     }
-
 </style>
+
 @(Html.DevExtreme().DataGrid<Customers>()
+    .ID("gridContainer")
+    .DataSource(d => d.WebApi().Controller("Customer").LoadAction("Get").Key("Id"))
+    .Paging(p => p.PageSize(15))
     .ShowBorders(true)
-    .DataSource(d => d.Mvc().Controller("Customer").LoadMethod("Get").Key("Id").LoadAction("Get"))
     .Columns(columns => {
-        columns.AddFor(m => m.Name).Width("60%");
-        columns.AddFor(m => m.Balance).Width("10%");
-        columns.AddFor(m => m.Id).Width("30%").CssClass("kurwa");
-   
+        columns.AddFor(m => m.Name);
+
+        columns.AddFor(m => m.Balance);
+
+        columns.AddFor(m => m.Id);
+
     })
-    .Paging(p => p.PageSize(10))
-    .FilterRow(f => f.Visible(false))
-    .GroupPanel(p => p.Visible(false))
-    .ShowColumnLines(true)
-    .ShowRowLines(true)
-    .Height("90%")
     .MasterDetail(m => m
         .Enabled(true)
         .Template(new TemplateName("gridContainer-details"))
     )
-    )
+)
 
-
-
-        
 @using(Html.DevExtreme().NamedTemplate("gridContainer-details")) {
     @(Html.DevExtreme().TabPanel()
         .Items(items => {
             items.Add()
                 .Title("Transactions")
-                .Template(new TemplateName("data1"));
-                  items.Add()
+                .Template(new TemplateName("gridContainer-details-tab1Template1"))
+                .Option("tabExtras", new { Id = new JS("data.Id") });
+
+            items.Add()
                 .Title("Invoices")
-                .Template(new TemplateName("data2"));
-                  items.Add()
+                .Template(new TemplateName("gridContainer-details-tab1Template2"))
+                .Option("tabExtras", new { Id = new JS("data.Id") });
+
+            items.Add()
                 .Title("Discounts")
-                .Template(new TemplateName("data3"));
-                
+                .Template(new TemplateName("gridContainer-details-tab1Template3"))
+                .Option("tabExtras", new { Id = new JS("data.Id") });
+
+
+           
         })
     )
 }
 
-
-@using(Html.DevExtreme().NamedTemplate("data1")) {
-    @(Html.DevExtreme().DataGrid<Transactions>()
+@using(Html.DevExtreme().NamedTemplate("gridContainer-details-tab1Template1")) {
+     @(Html.DevExtreme().DataGrid<Transactions>()
         .ShowBorders(true)
         .DataSource(d => d.Mvc()
             .Controller("Transactions")
-            .LoadAction("Get")
+                        .LoadAction("GetTransactionById")
+                        .LoadParams(new { Id = new JS("tabExtras.Id") })
+                        .Key("Id")
             
         )
         .Paging(p => p.PageSize(5))
@@ -85,43 +84,56 @@
     )
 }
 
-@using(Html.DevExtreme().NamedTemplate("data2")) {
-    @(Html.DevExtreme().DataGrid<Invoices>()
+
+
+@using(Html.DevExtreme().NamedTemplate("gridContainer-details-tab1Template2")) {
+     @(Html.DevExtreme().DataGrid<Invoices>()
         .ShowBorders(true)
         .DataSource(d => d.Mvc()
             .Controller("Invoices")
-            .LoadAction("Get")
+                        .LoadAction("GetInvoicesById")
+                        .LoadParams(new { Id = new JS("tabExtras.Id") })
+                        .Key("Id")
             
         )
         .Paging(p => p.PageSize(5))
         .Columns(columns => {
-            columns.AddFor(t => t.InvoiceNo);
+             columns.AddFor(t => t.InvoiceNo);
             columns.AddFor(t => t.Date);
             columns.AddFor(t => t.Price);
             columns.AddFor(t => t.Document_Path);
         })
        
     )
+
 }
 
-@using(Html.DevExtreme().NamedTemplate("data3")) {
-    @(Html.DevExtreme().DataGrid<Discounts>()
+
+@using(Html.DevExtreme().NamedTemplate("gridContainer-details-tab1Template3")) {
+     @(Html.DevExtreme().DataGrid<Discounts>()
         .ShowBorders(true)
         .DataSource(d => d.Mvc()
             .Controller("Discount")
-            .LoadAction("Get")
+                        .LoadAction("GetDiscountsById")
+                        .LoadParams(new { Id = new JS("tabExtras.Id") })
+                        .Key("Id")
             
         )
         .Paging(p => p.PageSize(5))
         .Columns(columns => {
-            columns.AddFor(t => t.Name);
+             columns.AddFor(t => t.Name);
             columns.AddFor(t => t.Description);
             columns.AddFor(t => t.UnitOfUsage);
             columns.AddFor(t => t.Price);
             columns.AddFor(t => t.Discount_Percentage);
             columns.AddFor(t => t.Customer_Price);
         })
+       .Editing(editing =>
        
+       editing.AllowAdding(true))
     )
+
 }
+
+
 

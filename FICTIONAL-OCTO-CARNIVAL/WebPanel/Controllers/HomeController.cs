@@ -37,5 +37,12 @@ namespace WebPanel.Controllers
             return View();
         }
 
+       
+        public decimal SendBalance(decimal es)
+        {
+
+            
+            return es;
+        }
     }
 }

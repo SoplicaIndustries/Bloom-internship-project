@@ -1,29 +1,32 @@
-﻿using WebPanel.Models;
-using DevExtreme.AspNet.Data;
+﻿using DevExtreme.AspNet.Data;
 using DevExtreme.AspNet.Mvc;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using RestSharp;
+using WebPanel.Models;
 
 namespace WebPanel.Controllers
 {
     public class UnitOfUsageController : Controller
     {
-        public static List<UnitsOfUsage> Get()
+
+
+        public object Get(DataSourceLoadOptions loadOptions)
         {
             var client = new RestClient();
             var request = new RestRequest("http://localhost:5223/api/UnitsOfUsages", Method.Get);
             var response = client.Execute(request);
-          List<UnitsOfUsage> UnitsList = JsonConvert.DeserializeObject<List<UnitsOfUsage>>(response.Content);
+            IEnumerable<UnitsOfUsage> UnitsList = JsonConvert.DeserializeObject<IEnumerable<UnitsOfUsage>>(response.Content);
 
 
 
 
-            return UnitsList;
+            return DataSourceLoader.Load(UnitsList, loadOptions);
         }
 
-        [HttpGet]
-        public static object Get2(DataSourceLoadOptions loadOptions)
+
+
+        public static List<UnitsOfUsage> GetUnits()
         {
             var client = new RestClient();
             var request = new RestRequest("http://localhost:5223/api/UnitsOfUsages", Method.Get);
@@ -33,7 +36,9 @@ namespace WebPanel.Controllers
 
 
 
-            return DataSourceLoader.Load(UnitsList, loadOptions);
+            return UnitsList;
         }
+
+
     }
 }

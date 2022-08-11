@@ -29,16 +29,19 @@
         editing.AllowUpdating(true);
     })
     .ShowBorders(true)
-    .DataSource(d => d.Mvc().Controller("Product").LoadMethod("Get").Key("Id").LoadAction("Get").UpdateAction("Put").DeleteAction("Delete").InsertAction("Post"))
+    
     .Columns(columns => {
         columns.AddFor(m => m.Name).Width("23%");
         columns.AddFor(m => m.Description).Width("29%");
-        columns.AddFor(m => m.UnitOfUsage).Width("15%").Lookup(lk => lk.DataSource(d => d.Mvc().Controller("UnitsOfUsage").LoadAction("Get2").Key("Id")));
+        columns.AddFor(m => m.UnitOfUsageId).Width("15%").Lookup(lookup => lookup.DataSource(d => d.Mvc().Controller("UnitOfUsage").LoadAction("Get").Key("Id")).ValueExpr("Id").DisplayExpr("Name"));
          columns.AddFor(m => m.Price).Width("7%");
+         columns.AddFor(m => m.Currency_Id).Width("15%").Lookup(lookup => lookup.DataSource(d => d.Mvc().Controller("Currency").LoadAction("Get").Key("Id")).ValueExpr("Id").DisplayExpr("Name"));
         columns.AddFor(m => m.Create_Date).Width("13%").CssClass("kurwa").AllowEditing(false);
         columns.AddFor(m => m.Modify_Date).Width("13%").CssClass("kurwa").AllowEditing(false);
+        
    
     })
+    .DataSource(d => d.Mvc().Controller("Product").Key("Id").LoadAction("Get").UpdateAction("Put").DeleteAction("Delete").InsertAction("Post"))
     .Paging(p => p.PageSize(10))
     .FilterRow(f => f.Visible(false))
     .GroupPanel(p => p.Visible(false))

@@ -12,5 +12,7 @@ namespace WebPanel.Models
         public decimal Balance { get; set; }
 
         public string Currency { get; set; }
+        public decimal Deposit { get; set; }
+
     }
 }

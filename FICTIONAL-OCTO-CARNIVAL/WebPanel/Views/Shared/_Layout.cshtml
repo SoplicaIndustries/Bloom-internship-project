@@ -1,4 +1,16 @@
+@using WebPanel.Controllers
+@using WebPanel.Models
 <!DOCTYPE html>
+@{
+    Guid guid = new Guid("3fa85f62-5717-4562-b3fc-2c963f66afa6");
+    Customers customer;
+    List<Customers> ListCustomers = CustomerController.GetCustomers();
+    decimal Balance = CustomerController.GetBalance(guid);
+    customer = ListCustomers.Find(c => c.Id == guid);
+
+}
+
+    
 
 <html>
 <head>
@@ -13,28 +25,48 @@ height:100vh;
 }
 
 .menu{
-    display: flex;
-    justify-content: center;
+    display:flex;
+    justify-content: center!important;
+    align-content:center!important;
+    align-items:center!important;
 }
 a{
     text-decoration: none!important;
     color: whitesmoke!important;
-
-
+}
+.jo{
+   
+    text-decoration: none!important;
+    color: whitesmoke!important;
+  transition: text-shadow .3s;
 }
 
-a:hover{
+.jo:hover{
     color:white;
-    font-weight: bold;
+   text-shadow: 0 0 .9px #FFFFFF, 0 0 .9px #FFFFFF, 0 0 .9px #FFFFFF;
 }
 .menu{
     margin-top: 5%!important;
+    font-size:15px;
+    letter-spacing: 0.2px
+   
 }
 
 .right-display{
-    right: 0%;
+   
+  position:fixed;
+  right:2%;
+  
 }
-
+.icont{
+    font-size:25px!important;
+}
+.Bill{
+    margin:25px!important;
+    font-size:20px;
+    font-weight:bold;
+}
+ 
 .div1 { grid-area: 2 / 1 / 16 / 2;background-color:#2699fb; display: flex; justify-content: center; color: white;}
 .div2 { grid-area: 1 / 1 / 2 / 11; background-color:#2699fb; display: flex; align-items: center; color: white;}
 .div3 { grid-area: 2 / 2 / 16 / 11;padding:5%; }
@@ -56,42 +88,65 @@ a:hover{
     <script src="~/js/vendor.js" asp-append-version="true"></script>
 </head>
 <body>
+     
+
   <div class="parent">
 
 <div class="div1">
 <div class="Menu">
 <div>
-    <a href="#">Transactions</a>
+    <a class="jo" asp-controller="Home" asp-action="Transactions">Transactions</a>
 </div>
   <div>
-    <a href="#">Invoices</a>
+    <a class="jo" asp-controller="Home" asp-action="Invoices">Invoices</a>
 </div>
 <div>
-    <a href="#">Products</a>
+    <a class="jo" asp-controller="Home" asp-action="Products">Products</a>
 </div>
 <div>
-    <a href="#">Customers</a>
+    <a class="jo" asp-controller="Home" asp-action="Customers">Customers</a>
 </div>
 </div>
-
+s
 
 
 
 </div>
+
+<script>
+    function Check(){
+        var lamb = document.getElementById("Numb").value;
+        console.log(lamb)
+        return lamb;
+    }
+
+    
+
+</script>
+
 
 <div class="div2"> 
-    <div>
+    <div class="Bill">
          Billing Service
     </div>
    <div class="right-display">
-       Balance: {value}
-       <i class="dx-icon-card"></i>
+       <input type="number" id="Numb" />
+  
+
+     
+        <a href="#"  onclick="Check(),location.href=' @Url.Action("PostBalance", "Transactions", new {Deposit = 69})'"> Balance: @Math.Round(Balance,2) z³ </a>    
+         <i class="dx-icon-user icont"></i>
+       
+
    </div>
    <div>
        <img />
    </div>
 
 </div>
+
+
+
 <div class="div3"> @RenderBody()</div>
 </body>
 
