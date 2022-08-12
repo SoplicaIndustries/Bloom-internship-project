@@ -33,5 +33,12 @@ namespace WebPanel.Controllers
             List<Invoices> filteredList = InvoiceList.FindAll(c => c.Customer_Id == Id);
             return DataSourceLoader.Load(filteredList, options);
         }
+
+        public FileResult GetFile(string filePath)
+        {
+            byte[] fileBytes = System.IO.File.ReadAllBytes(filePath);
+            return File(fileBytes, System.Net.Mime.MediaTypeNames.Application.Octet, Path.GetFileName(filePath));
+
+        }
     }
 }

@@ -124,10 +124,10 @@ namespace DbAPI.Controllers
             Decimal price = transactions.Sum(tr => tr.Price);
 
 
-            if (!Directory.Exists("Data/Invoices"))
-                Directory.CreateDirectory("Data/Invoices");
+            //if (!Directory.Exists("Data/Invoices"))
+            // Directory.CreateDirectory("DbAPI/Data/Invoices");
 
-            string FilePath = Path.Combine($"Data/Invoices/", strFileName);
+            string FilePath = Path.Combine($"C:/Users/krogoz/Documents/GitHub/Bloom-fictional-octo-carnival/FICTIONAL-OCTO-CARNIVAL/DbAPI/Data/", strFileName);
 
 
 

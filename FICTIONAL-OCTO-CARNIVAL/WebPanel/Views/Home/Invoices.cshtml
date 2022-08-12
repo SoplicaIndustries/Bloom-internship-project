@@ -21,6 +21,25 @@
     }
 
 </style>
+
+<script>
+    function cellTemplate(cellElement, cellInfo) {  
+    $('<a/>')  
+        .attr({ href: '@Url.RouteUrl("default", new { action = "GetFile", controller = "Invoices" })' + `?filePath=${cellInfo.data.Document_Path}`})  
+        .text("Download")  
+        .appendTo(cellElement);  
+}  
+</script>
+
+<script src="https://unpkg.com/devextreme-intl@18.2/dist/devextreme-intl.min.js"></script>  
+<script src="https://cdn3.devexpress.com/jslib/18.2.7/js/localization/dx.messages.cs.js"></script>  
+
+<script>  
+    DevExpress.localization.locale("pl-PL");  
+    DevExpress.config({ defaultCurrency: "PLN" });  
+</script>  
+
+
 @(Html.DevExtreme().DataGrid<Invoices>()
     .ID("ekes")
     .ShowBorders(true)
@@ -28,8 +47,8 @@
     .Columns(columns => {
         columns.AddFor(m => m.InvoiceNo).Width("55%");
         columns.AddFor(m => m.Date).Width("17%");
-        columns.AddFor(m => m.Price).Width("17%");
-         columns.AddFor(m => m.Document_Path).Width("11%");
+        columns.AddFor(m => m.Price).Width("17%").Format(Format.Currency); ;
+         columns.AddFor(m => m.Document_Path).Width("11%").CellTemplate(new JS("cellTemplate"));  
    
     })
     .Paging(p => p.PageSize(10))
