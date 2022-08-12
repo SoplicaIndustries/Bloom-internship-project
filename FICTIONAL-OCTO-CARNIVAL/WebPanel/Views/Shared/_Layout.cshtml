@@ -52,12 +52,23 @@ a{
     letter-spacing: 0.2px
    
 }
+#right{
+     position:absolute;
+  right:4.5%;
+  top:1.9%;
 
+  border: none !important;
+   width:90px;
+   height:40px;
+   background:transparent;
+   z-index:50;
+}
 .right-display{
-   
-  position:fixed;
-  right:1.5%;
-  top:2.3%;
+   user-select: none;
+  position:absolute;
+  right:4.5%;
+  top:1.9%;
+  color:white!important;
   
 }
 .icont{
@@ -70,7 +81,6 @@ a{
 }
  #functionbutton{
      width:170px;
-     heigth:15px;
      position:absolute;
      right:1.5%;
      top:2.3%;
@@ -79,10 +89,13 @@ a{
    
 
  }
- #numb{
-     position:absolute!important;
-     right:10%!important;
+  #functionbutton2{
+     width:25px;
+     height:15px;
+ }
 
+ #Numb{
+     width:40%;
  }
  .usericon{
      position:absolute;
@@ -90,7 +103,11 @@ a{
  }
 .div1 { grid-area: 2 / 1 / 16 / 2;background-color:#2699fb; display: flex; justify-content: center; color: white;}
 .div2 { grid-area: 1 / 1 / 2 / 11; background-color:#2699fb; display: flex; align-items: center; color: white;}
-.div3 { grid-area: 2 / 2 / 16 / 11;padding:5%; }
+.div3 { grid-area: 2 / 2 / 16 / 11;padding:5%;t }
+
+
+
+
 </style>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
@@ -109,11 +126,134 @@ a{
     <script src="~/js/vendor.js" asp-append-version="true"></script>
 </head>
 <body>
+
+
+
+
+<div id="container">
+
+  
+
+    @(Html.DevExtreme().Popup()
+        .ID("employee-popup")
+        .Width(600)
+        .Height(400)
+        .ShowTitle(true)
+        .Title("Deposit")
+        
+        .DragEnabled(false)
+        .HideOnOutsideClick(false)
+        .ShowCloseButton(true)
+        .ToolbarItems(barItems => {
+            barItems.Add()
+                .Toolbar(Toolbar.Bottom)
+                .Location(ToolbarItemLocation.After)
+                .Widget(widget => widget.Button()
+                    .Text("Deposit")
+                    .OnClick(@<text>
+                                            function hideInfo(data) {
+                                                 var lamb = document.getElementById("Numb").value;
+                         
+                        console.log(lamb);
+
+                        $.post("/Transactions/PostBalance/?deposit=" + lamb);
+
+                        $(document).ajaxStop(function() {
+                            console.log("refresh");
+                            location.reload(true);
+                        });
+                                                const popup = $("#employee-popup").dxPopup("instance");
+                                                popup.hide();
+                                            }
+                                        </text>)
+                );
+        })
+    )
+
+   
+
+            @(Html.DevExtreme().Button()
+                     .ID("right")
+                    .Text("")
+                    .OnClick(@<text>
+                                            function showInfo(data) {
+                                                const popup = $("#employee-popup").dxPopup("instance");
+                                                popup.option({
+                                                    contentTemplate: $("#popup-template"),
+                                                });
+                                                popup.show();
+                                            }
+                                        </text>)
+                )
+
+            @using (Html.DevExtreme().NamedTemplate("popup-template")) {
+                <span>
+                    <h2>@customer.Name</h2>
+                    <p>
+                        Guid: @customer.Id
+                    </p>
+                    <p>
+                       Balance: @Balance
+                    </p>
+                    <p>
+                           <b>Enter a deposit</b>
+                    </p>
+                    <p>
+                            <input class="form-control" type="number" id="Numb"/>
+                    </p>
+                </span>
+            }
+</div>
+
+
+
+
+
+
+
+
+
+
+
+    <script defer>
+    
+function Check() { 
+    var PopUp = document.getElementById("PopUp");
+    PopUp.style.visibility = "visible";
+    var Panel = document.getElementById("Panel");
+
+}
+
+
+function Deposit() {
+    var lamb = document.getElementById("Numb").value;
      
+    console.log(lamb);
+
+    $.post("/Transactions/PostBalance/?deposit=" + lamb);
+
+    $(document).ajaxStop(function() {
+        console.log("refresh");
+        location.reload(true);
+    });
+    var PopUp = document.getElementById("PopUp");
+    PopUp.style.visibility = "hidden";
+}
+
+function Change(){
+    var NameOfButton = document.getElementById("right");
+
+
+
+}
+
+</script>
+
+    
 
   <div class="parent">
-
-<div class="div1">
+   
+<div id="div1" class="div1">
 <div class="Menu">
 <div>
     <a class="jo" asp-controller="Home" asp-action="Transactions">Transactions</a>
@@ -134,41 +274,20 @@ a{
 
 </div>
 
-<script>
-    
-function Check() { 
-        var lamb = document.getElementById("Numb").value;
-        console.log(lamb);
-       
-        $.post( "/Transactions/PostBalance/?deposit=" + lamb);
-         $(document).ajaxStop(function(){
-            console.log("refresh");
-             location.reload(true);
-    });
-    
-    }
-
-</script>
 
 
-<div class="div2"> 
+<div id="div2" class="div2"> 
     <div class="Bill">
          Billing Service
     </div>
-   <div class="right-display">
-      
-     <button id="functionbutton" onclick="Check()"</button> 
-        Balance: @Balance z³ 
-        
-        
+
+     <div class="right-display">
+        Balance: @Balance z³
      </div>
-       <div id="numb">
-            <input class="" type="number" width="10px" id="Numb"/>
-       </div>
          <div class="usericon">
              <i class="dx-icon-user icont"></i>
          </div>
-
+         
    <div>
        <img />
    </div>
@@ -177,7 +296,8 @@ function Check() {
 
 
 
-<div class="div3"> @RenderBody()</div>
+
+<div id="3" class="div3"> @RenderBody()</div>
 </body>
 
 </html>

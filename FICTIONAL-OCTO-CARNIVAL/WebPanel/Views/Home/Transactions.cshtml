@@ -22,13 +22,21 @@
     }
 
 </style>
+
+<script src="https://unpkg.com/devextreme-intl@18.2/dist/devextreme-intl.min.js"></script>  
+<script src="https://cdn3.devexpress.com/jslib/18.2.7/js/localization/dx.messages.cs.js"></script>  
+
+<script>  
+    DevExpress.localization.locale("pl-PL");  
+    DevExpress.config({ defaultCurrency: "PLN" });  
+</script>  
 @(Html.DevExtreme().DataGrid<Transactions>()
     .ShowBorders(true)
     .DataSource(d => d.Mvc().Controller("Transactions").LoadMethod("Get").Key("Id").LoadAction("Get"))
     .Columns(columns => {
             columns.AddFor(m => m.Description).Width("32.5%");
-        columns.AddFor(m => m.Price).Width("10%");
-        columns.AddFor(m => m.Balance_After).Width("10%");
+        columns.AddFor(m => m.Price).Width("10%").Format(Format.Currency);;
+        columns.AddFor(m => m.Balance_After).Width("10%").Format(Format.Currency);;
         columns.AddFor(m => m.Date).Width("15%").CssClass("kurwa");
         columns.AddFor(m => m.Reference_Number).Width("32.5%").CssClass("kurwa");
    
@@ -40,6 +48,6 @@
     .ShowRowLines(true)
     .Height("90%")
     )
-    )
+    
 
-
+    

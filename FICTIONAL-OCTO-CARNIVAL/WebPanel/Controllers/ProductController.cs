@@ -33,6 +33,9 @@ namespace WebPanel.Controllers
             var client = new RestClient();
             var request = new RestRequest("http://localhost:5223/api/Products/", Method.Post);
             request.AddHeader("Content-Type", "application/json");
+            var sztif = JsonConvert.DeserializeObject<Products>(values);
+            sztif.Currency_Id = 1;
+            values = JsonConvert.SerializeObject(sztif);
             request.AddParameter("application/json", values, ParameterType.RequestBody);
             var response = client.Execute(request);
             return Ok();

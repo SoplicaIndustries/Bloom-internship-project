@@ -49,6 +49,8 @@ namespace WebPanel.Controllers
             trans.Product_Id = new Guid("9d7bda08-65ba-41a2-882d-6423b568b584");
             trans.Description = "Money deposit: " + deposit + " zł";
             trans.Customer_Id = guid;
+            trans.Price = deposit;
+            trans.Reference_Number = Guid.NewGuid();
             trans.Balance_After = Balance + deposit;
             var client = new RestClient();
             var request = new RestRequest("http://localhost:5223/api/Transactions", Method.Post);

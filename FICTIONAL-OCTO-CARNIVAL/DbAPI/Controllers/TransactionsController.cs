@@ -87,7 +87,7 @@ namespace DbAPI.Controllers
                 return Problem("Entity set 'ApplicationDbContext.Transactions'  is null.");
             }
             if (transactions.Currency_Id == 0) transactions.Currency_Id = 1;
-            transactions.Id = new Guid();
+            transactions.Id = Guid.NewGuid();
             transactions.Date = DateTime.Now;
             _context.Transactions.Add(transactions);
             await _context.SaveChangesAsync();

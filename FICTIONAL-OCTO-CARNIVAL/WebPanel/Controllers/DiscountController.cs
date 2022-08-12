@@ -47,6 +47,7 @@ namespace WebPanel.Controllers
             var client = new RestClient();
             var dis = JsonConvert.DeserializeObject<Discounts>(values);
             dis.Id = 0;
+           
             values = JsonConvert.SerializeObject(dis);
             var request = new RestRequest("http://localhost:5223/api/Discounts/", Method.Post);
             request.AddHeader("Content-Type", "application/json");

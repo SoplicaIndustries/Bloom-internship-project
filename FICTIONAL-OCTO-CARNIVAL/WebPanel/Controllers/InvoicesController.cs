@@ -33,5 +33,24 @@ namespace WebPanel.Controllers
             List<Invoices> filteredList = InvoiceList.FindAll(c => c.Customer_Id == Id);
             return DataSourceLoader.Load(filteredList, options);
         }
+
+        public FileResult GetFile(int id)
+        {
+            var client = new HttpClient();
+            var request = new HttpRequestMessage
+            {
+                Method = HttpMethod.Get,
+                RequestUri = new Uri($"http://localhost:5223/api/InvoiceGenerator/{id}"),
+
+            };
+
+
+            var response = client.Send(request);
+            var result = response.Content.ReadAsStringAsync().Result.Replace("\"", string.Empty); ;
+            byte[] btarr = Convert.FromBase64String(result);
+
+            return File(btarr, System.Net.Mime.MediaTypeNames.Application.Octet, Path.GetFileName("Fakturka.pdf"));
+
+        }
     }
 }

@@ -7,12 +7,32 @@ using RestSharp;
 
 namespace DbAPI.Controllers
 {
-
+    [Route("api/[controller]")]
+    [ApiController]
     public class InvoiceGenerator : ControllerBase
     {
 
+        [HttpGet("{id}")]
+        public byte[] DownloadInvoice(int id)
+        {
+            var client = new RestClient();
+            var request = new RestRequest("http://localhost:5223/api/Invoices", Method.Get);
+            List<Invoices> InvoiceList = JsonConvert.DeserializeObject<List<Invoices>>(client.Execute(request).Content);
+            var invoices = InvoiceList.Find(i => i.Id == id);
 
 
+            return System.IO.File.ReadAllBytes(invoices.Document_Path);
+
+
+
+
+
+
+
+
+
+
+        }
 
 
         public async void CreateInvoices()
@@ -127,7 +147,7 @@ namespace DbAPI.Controllers
             if (!Directory.Exists("Data/Invoices"))
                 Directory.CreateDirectory("Data/Invoices");
 
-            string FilePath = Path.Combine($"Data/Invoices/", strFileName);
+            string FilePath = Path.Combine($"Data/Invoices", strFileName);
 
 
 
