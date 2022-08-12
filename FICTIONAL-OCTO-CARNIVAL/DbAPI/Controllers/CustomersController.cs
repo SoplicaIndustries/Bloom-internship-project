@@ -11,6 +11,8 @@ namespace DbAPI.Controllers
     {
         private readonly ApplicationDbContext _context;
 
+
+
         public CustomersController(ApplicationDbContext context)
         {
             _context = context;
@@ -26,6 +28,8 @@ namespace DbAPI.Controllers
             }
             return await _context.Customers.ToListAsync();
         }
+
+
 
         // GET: api/Customers/5
         [HttpGet("{id}")]

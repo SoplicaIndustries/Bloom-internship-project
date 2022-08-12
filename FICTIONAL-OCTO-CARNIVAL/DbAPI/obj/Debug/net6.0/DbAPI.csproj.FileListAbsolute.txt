@@ -530,3 +530,5 @@ C:\Users\pkurpiel\Documents\GitHub\Bloom-fictional-octo-carnival\FICTIONAL-OCTO-
 C:\Users\pkurpiel\Documents\GitHub\Bloom-fictional-octo-carnival\FICTIONAL-OCTO-CARNIVAL\DbAPI\obj\Debug\net6.0\DbAPI.csproj.CopyComplete
 C:\Users\pkurpiel\Documents\GitHub\Bloom-fictional-octo-carnival\FICTIONAL-OCTO-CARNIVAL\DbAPI\obj\Debug\net6.0\DbAPI.genruntimeconfig.cache
 C:\Users\pkurpiel\Documents\GitHub\Bloom-fictional-octo-carnival\FICTIONAL-OCTO-CARNIVAL\DbAPI\obj\Debug\net6.0\ref\DbAPI.dll
+C:\Users\krogoz\Documents\GitHub\Bloom-fictional-octo-carnival\FICTIONAL-OCTO-CARNIVAL\DbAPI\bin\Debug\net6.0\RestSharp.dll
+C:\Users\pkurpiel\Documents\GitHub\Bloom-fictional-octo-carnival\FICTIONAL-OCTO-CARNIVAL\DbAPI\bin\Debug\net6.0\RestSharp.dll

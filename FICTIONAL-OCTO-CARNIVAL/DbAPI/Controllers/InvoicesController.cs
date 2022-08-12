@@ -9,7 +9,7 @@ namespace DbAPI.Controllers
     [ApiController]
     public class InvoicesController : ControllerBase
     {
-        private readonly ApplicationDbContext _context;
+        public static ApplicationDbContext _context;
 
         public InvoicesController(ApplicationDbContext context)
         {
@@ -118,4 +118,6 @@ namespace DbAPI.Controllers
             return (_context.Invoices?.Any(e => e.Id == id)).GetValueOrDefault();
         }
     }
+
+
 }

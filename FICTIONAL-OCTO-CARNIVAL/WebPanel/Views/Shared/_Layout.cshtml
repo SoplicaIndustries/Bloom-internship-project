@@ -6,6 +6,7 @@
     Customers customer;
     List<Customers> ListCustomers = CustomerController.GetCustomers();
     decimal Balance = CustomerController.GetBalance(guid);
+    Balance = Math.Round(Balance, 2);
     customer = ListCustomers.Find(c => c.Id == guid);
 
 }
@@ -55,7 +56,8 @@ a{
 .right-display{
    
   position:fixed;
-  right:2%;
+  right:1.5%;
+  top:2.3%;
   
 }
 .icont{
@@ -66,7 +68,26 @@ a{
     font-size:20px;
     font-weight:bold;
 }
- 
+ #functionbutton{
+     width:170px;
+     heigth:15px;
+     position:absolute;
+     right:1.5%;
+     top:2.3%;
+  background: transparent;
+    border: none !important;
+   
+
+ }
+ #numb{
+     position:absolute!important;
+     right:10%!important;
+
+ }
+ .usericon{
+     position:absolute;
+     right:1%;
+ }
 .div1 { grid-area: 2 / 1 / 16 / 2;background-color:#2699fb; display: flex; justify-content: center; color: white;}
 .div2 { grid-area: 1 / 1 / 2 / 11; background-color:#2699fb; display: flex; align-items: center; color: white;}
 .div3 { grid-area: 2 / 2 / 16 / 11;padding:5%; }
@@ -82,7 +103,7 @@ a{
 
     @* Uncomment to use the HtmlEditor control *@
     @* <script src="https://unpkg.com/devextreme-quill@21_2/dist/dx-quill.min.js"></script> *@
-
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <link rel="stylesheet" href="~/css/vendor.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/Site.css" />
     <script src="~/js/vendor.js" asp-append-version="true"></script>
@@ -107,20 +128,25 @@ a{
     <a class="jo" asp-controller="Home" asp-action="Customers">Customers</a>
 </div>
 </div>
-s
+
 
 
 
 </div>
 
 <script>
-    function Check(){
-        var lamb = document.getElementById("Numb").value;
-        console.log(lamb)
-        return lamb;
-    }
-
     
+function Check() { 
+        var lamb = document.getElementById("Numb").value;
+        console.log(lamb);
+       
+        $.post( "/Transactions/PostBalance/?deposit=" + lamb);
+         $(document).ajaxStop(function(){
+            console.log("refresh");
+             location.reload(true);
+    });
+    
+    }
 
 </script>
 
@@ -130,15 +156,19 @@ s
          Billing Service
     </div>
    <div class="right-display">
-       <input type="number" id="Numb" />
-  
+      
+     <button id="functionbutton" onclick="Check()"</button> 
+        Balance: @Balance z³ 
+        
+        
+     </div>
+       <div id="numb">
+            <input class="" type="number" width="10px" id="Numb"/>
+       </div>
+         <div class="usericon">
+             <i class="dx-icon-user icont"></i>
+         </div>
 
-     
-        <a href="#"  onclick="Check(),location.href=' @Url.Action("PostBalance", "Transactions", new {Deposit = 69})'"> Balance: @Math.Round(Balance,2) z³ </a>    
-         <i class="dx-icon-user icont"></i>
-       
-
-   </div>
    <div>
        <img />
    </div>

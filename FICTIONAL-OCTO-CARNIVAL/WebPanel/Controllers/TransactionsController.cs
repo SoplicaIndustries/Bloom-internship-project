@@ -36,7 +36,7 @@ namespace WebPanel.Controllers
             List<Transactions> filteredList = TransactionsList.FindAll(c => c.Customer_Id == Id);
             return DataSourceLoader.Load(filteredList, options);
         }
-       
+
         public void PostBalance(decimal deposit)
         {
             Guid guid = new Guid("3fa85f62-5717-4562-b3fc-2c963f66afa6");
@@ -45,10 +45,14 @@ namespace WebPanel.Controllers
             decimal Balance = CustomerController.GetBalance(guid);
 
             Transactions trans = new Transactions();
-            trans.Balance_After = Balance+deposit;
+            trans.Currency_Id = 1;
+            trans.Product_Id = new Guid("9d7bda08-65ba-41a2-882d-6423b568b584");
+            trans.Description = "Money deposit: " + deposit + " zł";
+            trans.Customer_Id = guid;
+            trans.Balance_After = Balance + deposit;
             var client = new RestClient();
             var request = new RestRequest("http://localhost:5223/api/Transactions", Method.Post);
-            
+
 
             string ToSend = JsonConvert.SerializeObject(trans);
 
@@ -57,7 +61,7 @@ namespace WebPanel.Controllers
             var response = client.Execute(request);
 
         }
+    }
 
     }
 
-}

@@ -1,9 +1,9 @@
-﻿using WebPanel.Models;
-using DevExtreme.AspNet.Data;
+﻿using DevExtreme.AspNet.Data;
 using DevExtreme.AspNet.Mvc;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using RestSharp;
+using WebPanel.Models;
 namespace WebPanel.Controllers
 {
     public class CustomerController : Controller
@@ -38,7 +38,7 @@ namespace WebPanel.Controllers
             request.AddHeader("Content-Type", "application/json");
             request.AddParameter("application/json", ToSend, ParameterType.RequestBody);
             var response = client.Execute(request);
-    
+
 
         }
 
@@ -56,7 +56,7 @@ namespace WebPanel.Controllers
 
         }
 
-       public static List<Customers> GetCustomers()
+        public static List<Customers> GetCustomers()
         {
             var client = new RestClient();
             var request = new RestRequest("http://localhost:5223/api/Customers", Method.Get);
@@ -65,6 +65,7 @@ namespace WebPanel.Controllers
 
             return CustomerList;
         }
+
 
 
 

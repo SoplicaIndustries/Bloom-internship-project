@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "M+ROfGdRKmgQQshV/UiVfAyWbckOA412CZMFM+GfbIHEGCVbAibZJpV92eoA9fmODDvhdfs4H4QzawTkwVHIVw==",
+  "dgSpecHash": "SYKlCaow7pjsjudeYxLd24e+2j+oRv4bUzkEyqr9oFcwWIH2QyY+Ikumef5jN1ANprSHIHCyVjH1kIduFCFm/Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\WebPanel.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pkurpiel\\.nuget\\packages\\buildbundlerminifier\\2.9.406\\buildbundlerminifier.2.9.406.nupkg.sha512",
     "C:\\Users\\pkurpiel\\.nuget\\packages\\devextreme.aspnet.core\\22.1.4\\devextreme.aspnet.core.22.1.4.nupkg.sha512",
     "C:\\Users\\pkurpiel\\.nuget\\packages\\devextreme.aspnet.data\\2.8.6\\devextreme.aspnet.data.2.8.6.nupkg.sha512",
+    "C:\\Users\\pkurpiel\\.nuget\\packages\\jquery\\1.8.0\\jquery.1.8.0.nupkg.sha512",
     "C:\\Users\\pkurpiel\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.0.0\\microsoft.aspnetcore.antiforgery.2.0.0.nupkg.sha512",
     "C:\\Users\\pkurpiel\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.0.0\\microsoft.aspnetcore.authentication.abstractions.2.0.0.nupkg.sha512",
     "C:\\Users\\pkurpiel\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.0.0\\microsoft.aspnetcore.authentication.core.2.0.0.nupkg.sha512",
@@ -69,6 +70,7 @@
     "C:\\Users\\pkurpiel\\.nuget\\packages\\microsoft.extensions.options\\2.0.0\\microsoft.extensions.options.2.0.0.nupkg.sha512",
     "C:\\Users\\pkurpiel\\.nuget\\packages\\microsoft.extensions.primitives\\2.0.0\\microsoft.extensions.primitives.2.0.0.nupkg.sha512",
     "C:\\Users\\pkurpiel\\.nuget\\packages\\microsoft.extensions.webencoders\\2.0.0\\microsoft.extensions.webencoders.2.0.0.nupkg.sha512",
+    "C:\\Users\\pkurpiel\\.nuget\\packages\\microsoft.jquery.unobtrusive.ajax\\3.2.6\\microsoft.jquery.unobtrusive.ajax.3.2.6.nupkg.sha512",
     "C:\\Users\\pkurpiel\\.nuget\\packages\\microsoft.net.http.headers\\2.0.0\\microsoft.net.http.headers.2.0.0.nupkg.sha512",
     "C:\\Users\\pkurpiel\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
     "C:\\Users\\pkurpiel\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",

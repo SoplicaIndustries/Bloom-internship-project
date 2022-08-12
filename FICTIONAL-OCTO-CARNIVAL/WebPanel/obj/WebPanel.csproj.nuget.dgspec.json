@@ -57,6 +57,10 @@
               "target": "Package",
               "version": "[2.8.6, )"
             },
+            "Microsoft.jQuery.Unobtrusive.Ajax": {
+              "target": "Package",
+              "version": "[3.2.6, )"
+            },
             "RestSharp": {
               "target": "Package",
               "version": "[108.0.1, )"

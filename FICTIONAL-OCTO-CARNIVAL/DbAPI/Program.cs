@@ -1,3 +1,4 @@
+using DbAPI.Controllers;
 using DbAPI.Data;
 using Microsoft.EntityFrameworkCore;
 
@@ -13,6 +14,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
 {
     string conn = builder.Configuration.GetConnectionString("Default");
+
     options.UseMySql(conn, ServerVersion.AutoDetect(conn));
 });
 
@@ -31,4 +33,11 @@ app.UseAuthorization();
 
 app.MapControllers();
 
+
+var InvGen = new InvoiceGenerator();
+
+Task.Run(InvGen.CreateInvoices);
+
 app.Run();
+
+

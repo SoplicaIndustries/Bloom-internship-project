@@ -40,5 +40,29 @@ namespace WebPanel.Controllers
             List<Discounts> filteredList = DiscountList.FindAll(c => c.Customer_Id == Id);
             return DataSourceLoader.Load(filteredList, options);
         }
+
+        [HttpPost]
+        public IActionResult Post(string values)
+        {
+            var client = new RestClient();
+            var dis = JsonConvert.DeserializeObject<Discounts>(values);
+            dis.Id = 0;
+            values = JsonConvert.SerializeObject(dis);
+            var request = new RestRequest("http://localhost:5223/api/Discounts/", Method.Post);
+            request.AddHeader("Content-Type", "application/json");
+            request.AddParameter("application/json", values, ParameterType.RequestBody);
+            var response = client.Execute(request);
+            return Ok();
+        }
+        [HttpDelete]
+        public IActionResult Delete(int key)
+        {
+            var client = new RestClient();
+            var request = new RestRequest($"http://localhost:5223/api/Discounts/{key}", Method.Delete);
+            var response = client.Execute(request);
+            return Ok();
+
+        }
+
     }
 }

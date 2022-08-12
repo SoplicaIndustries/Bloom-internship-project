@@ -25,7 +25,7 @@ namespace DbAPI.Controllers
         public ActionResult<bool> CheckAbilityToBuy(Guid customerId, Guid productId)
         {//!!!!!W przypadku braku zadanego customer_guid w bazie BillingService, ma zostać dodany.
             IEnumerable<Transactions> customersTransactions = _context.Transactions.Where(tr => tr.Customer_Id == customerId).ToList().AsEnumerable();//nie pytac po co 2 razy konwersja, inaczej wybucha
-            InvoiceGenerator.GenerateInvoice(customersTransactions.ToList(), "sdadsas");
+
 #pragma warning disable CS8600 // Konwertowanie literału null lub możliwej wartości null na nienullowalny typ.
             Products product = _context.Products.Find(productId);
 #pragma warning restore CS8600 // Konwertowanie literału null lub możliwej wartości null na nienullowalny typ.

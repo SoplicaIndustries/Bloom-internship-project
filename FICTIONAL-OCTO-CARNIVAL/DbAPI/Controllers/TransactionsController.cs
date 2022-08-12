@@ -11,6 +11,7 @@ namespace DbAPI.Controllers
     {
         private readonly ApplicationDbContext _context;
 
+
         public TransactionsController(ApplicationDbContext context)
         {
             _context = context;
@@ -79,12 +80,13 @@ namespace DbAPI.Controllers
         // POST: api/Transactions
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<Transactions>> PostTransactions(Transactions transactions)
+        public async Task<ActionResult<Transactions>> Post(Transactions transactions)
         {
             if (_context.Transactions == null)
             {
                 return Problem("Entity set 'ApplicationDbContext.Transactions'  is null.");
             }
+            if (transactions.Currency_Id == 0) transactions.Currency_Id = 1;
             transactions.Id = new Guid();
             transactions.Date = DateTime.Now;
             _context.Transactions.Add(transactions);

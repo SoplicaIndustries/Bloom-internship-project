@@ -1,15 +1,46 @@
 ﻿using DbAPI.Models;
 using iTextSharp.text;
 using iTextSharp.text.pdf;
+using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
+using RestSharp;
 
 namespace DbAPI.Controllers
 {
 
-    public class InvoiceGenerator
+    public class InvoiceGenerator : ControllerBase
     {
 
 
-        public static void GenerateInvoice(List<Transactions> transactions, string invoiceNo)
+
+
+
+        public async void CreateInvoices()
+        {
+            var timer = new PeriodicTimer(TimeSpan.FromSeconds(600));
+            var client = new RestClient();
+
+
+
+            while (await timer.WaitForNextTickAsync())
+            {
+                var request = new RestRequest("http://localhost:5223/api/Customers", Method.Get);
+                List<Customers> CustomerList = JsonConvert.DeserializeObject<List<Customers>>(client.Execute(request).Content);
+
+                foreach (Customers customer in CustomerList)
+                {
+                    request = new RestRequest("http://localhost:5223/api/Transactions", Method.Get);
+                    List<Transactions> customerTransactions = JsonConvert.DeserializeObject<List<Transactions>>(client.Execute(request).Content).FindAll(c => c.Customer_Id == customer.Id);
+                    GenerateInvoice(customerTransactions, customer.Id);
+                }
+            }
+
+
+
+
+        }
+
+        private void GenerateInvoice(List<Transactions> transactions, Guid customerId)
         {
             #region Common Part
             PdfPTable pdfTableBlank = new PdfPTable(1);
@@ -88,11 +119,17 @@ namespace DbAPI.Controllers
             #region Pdf Generation
 
 
-            string strFileName = "DescriptionForm.pdf";
+            string invNo = $"{customerId}-{DateTime.Now.Month}-{DateTime.Now.Year}";
+            string strFileName = $"{invNo}.pdf";
+            Decimal price = transactions.Sum(tr => tr.Price);
 
 
+            if (!Directory.Exists("Data/Invoices"))
+                Directory.CreateDirectory("Data/Invoices");
 
-            string FilePath = Path.Combine($"C:/Users/krogoz/Desktop/", strFileName);
+            string FilePath = Path.Combine($"Data/Invoices/", strFileName);
+
+
 
             using (FileStream stream = new FileStream(FilePath, FileMode.Create))
             {
@@ -116,6 +153,12 @@ namespace DbAPI.Controllers
                 stream.Close();
             }
             #endregion
+
+            var client = new RestClient();
+            var request = new RestRequest("http://localhost:5223/api/Invoices/", Method.Post);
+            request.AddHeader("Content-Type", "application/json");
+            request.AddParameter("application/json", new Invoices { Id = 0, Currency_Id = 1, Customer_Id = customerId, Date = DateTime.Now, Document_Path = FilePath, Price = price, InvoiceNo = invNo }, ParameterType.RequestBody);
+            var response = client.Execute(request);
 
 
         }
