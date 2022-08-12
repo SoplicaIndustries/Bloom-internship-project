@@ -34,10 +34,22 @@ namespace WebPanel.Controllers
             return DataSourceLoader.Load(filteredList, options);
         }
 
-        public FileResult GetFile(string filePath)
+        public FileResult GetFile(int id)
         {
-            byte[] fileBytes = System.IO.File.ReadAllBytes(filePath);
-            return File(fileBytes, System.Net.Mime.MediaTypeNames.Application.Octet, Path.GetFileName(filePath));
+            var client = new HttpClient();
+            var request = new HttpRequestMessage
+            {
+                Method = HttpMethod.Get,
+                RequestUri = new Uri($"http://localhost:5223/api/InvoiceGenerator/{id}"),
+
+            };
+
+
+            var response = client.Send(request);
+            var result = response.Content.ReadAsStringAsync().Result.Replace("\"", string.Empty); ;
+            byte[] btarr = Convert.FromBase64String(result);
+
+            return File(btarr, System.Net.Mime.MediaTypeNames.Application.Octet, Path.GetFileName("Fakturka.pdf"));
 
         }
     }

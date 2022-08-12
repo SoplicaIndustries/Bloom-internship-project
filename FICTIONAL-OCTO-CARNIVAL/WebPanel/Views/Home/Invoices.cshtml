@@ -25,7 +25,7 @@
 <script>
     function cellTemplate(cellElement, cellInfo) {  
     $('<a/>')  
-        .attr({ href: '@Url.RouteUrl("default", new { action = "GetFile", controller = "Invoices" })' + `?filePath=${cellInfo.data.Document_Path}`})  
+        .attr({ href: '@Url.RouteUrl("default", new { action = "GetFile", controller = "Invoices" })' + `?id=${cellInfo.data.Id}`})  
         .text("Download")  
         .appendTo(cellElement);  
 }  
