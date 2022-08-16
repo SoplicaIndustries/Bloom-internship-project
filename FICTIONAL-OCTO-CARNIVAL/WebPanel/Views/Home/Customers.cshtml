@@ -83,7 +83,6 @@
         .Columns(columns => {
             columns.AddFor(t => t.Product_Id);
             columns.AddFor(t => t.Description);
-            columns.AddFor(t => t.Customer_Id);
             columns.AddFor(t => t.Id);
             columns.AddFor(t => t.Date);
             columns.AddFor(t => t.Price).Format(Format.Currency); ;
@@ -109,7 +108,7 @@
              columns.AddFor(t => t.InvoiceNo);
             columns.AddFor(t => t.Date);
             columns.AddFor(t => t.Price).Format(Format.Currency); ;
-            columns.AddFor(t => t.Document_Path);
+            
         })
        
     )

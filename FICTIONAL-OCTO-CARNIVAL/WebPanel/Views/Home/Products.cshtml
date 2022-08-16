@@ -44,7 +44,7 @@
         columns.AddFor(m => m.Name).Width("23%");
         columns.AddFor(m => m.Description).Width("29%");
         columns.AddFor(m => m.UnitOfUsageId).Width("15%").Lookup(lookup => lookup.DataSource(d => d.Mvc().Controller("UnitOfUsage").LoadAction("Get").Key("Id")).ValueExpr("Id").DisplayExpr("Name"));
-         columns.AddFor(m => m.Price).Width("7%").Format(Format.Currency);  
+         columns.AddFor(m => m.Price).Width("7%").Format(Format.Currency).Format(Format.Decimal);  
          columns.AddFor(m => m.Currency_Id).AllowEditing(false).Visible(false).Width("15%").Lookup(lookup => lookup.DataSource(d => d.Mvc().Controller("Currency").LoadAction("Get").Key("Id")).ValueExpr("Id").DisplayExpr("Name"));
         columns.AddFor(m => m.Create_Date).Width("13%").CssClass("kurwa").AllowEditing(false);
         columns.AddFor(m => m.Modify_Date).Width("13%").CssClass("kurwa").AllowEditing(false);

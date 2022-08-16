@@ -177,7 +177,7 @@ namespace DbAPI.Controllers
             var client = new RestClient();
             var request = new RestRequest("http://localhost:5223/api/Invoices/", Method.Post);
             request.AddHeader("Content-Type", "application/json");
-            request.AddParameter("application/json", new Invoices { Id = 0, Currency_Id = 1, Customer_Id = customerId, Date = DateTime.Now, Document_Path = FilePath, Price = price, InvoiceNo = invNo }, ParameterType.RequestBody);
+            request.AddParameter("application/json", new Invoices { Id = 0, Currency_Id = 1, Customer_Id = customerId, Date = DateTime.Now, Document_Path = FilePath, Price = price, InvoiceNo = $"" }, ParameterType.RequestBody);
             var response = client.Execute(request);
 
 
