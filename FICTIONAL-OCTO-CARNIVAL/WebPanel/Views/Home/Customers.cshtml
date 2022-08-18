@@ -2,13 +2,13 @@
 
 <h2>Customers</h2>
 <style>
-    .kurwa{
+    .cell-center{
           text-align: center!important  
     }
-    kurwa{
+    cell-center{
           text-align: center!important  
     }
-    #kurwa{
+    #cell-center{
   text-align: center!important  
     }
     td[role=columnheader] {  
@@ -25,18 +25,25 @@
     DevExpress.localization.locale("pl-PL");  
     DevExpress.config({ defaultCurrency: "PLN" });  
 </script>  
-
+<script>
+    function cellTemplate(cellElement, cellInfo) {  
+        $('<a/>')
+            .attr({ href: '@Url.RouteUrl("default", new { action = "GetFile", controller = "Invoices" })' + `?id=${cellInfo.data.Id}` })
+            .append("<img src='https://cdn-icons-png.flaticon.com/128/337/337946.png' width='15%' height='15%'>")
+        .appendTo(cellElement);  
+}  
+</script>
 @(Html.DevExtreme().DataGrid<Customers>()
     .ID("gridContainer")
     .DataSource(d => d.WebApi().Controller("Customer").LoadAction("Get").Key("Id"))
     .Paging(p => p.PageSize(15))
     .ShowBorders(true)
     .Columns(columns => {
-        columns.AddFor(m => m.Name);
+        columns.AddFor(m => m.Name).Width("50%");
 
-        columns.AddFor(m => m.Balance).Format(Format.Currency); 
+        columns.AddFor(m => m.Balance).Width("15%").Format(Format.Currency).Format(f => f.Type(Format.Currency).Precision(2)); 
 
-        columns.AddFor(m => m.Id);
+        columns.AddFor(m => m.Id).Width("35%").CssClass("cell-center");
 
     })
     .MasterDetail(m => m
@@ -81,11 +88,15 @@
         )
         .Paging(p => p.PageSize(5))
         .Columns(columns => {
-            columns.AddFor(t => t.Product_Id);
+            columns.AddFor(t => t.Product_Name).CssClass("cell-center");
             columns.AddFor(t => t.Description);
-            columns.AddFor(t => t.Id);
-            columns.AddFor(t => t.Date);
-            columns.AddFor(t => t.Price).Format(Format.Currency); ;
+            columns.AddFor(t => t.Price).Width("10%").CssClass("cell-center").Format(Format.Currency).Format(f => f.Type(Format.Currency).Precision(2));
+              columns.AddFor(t => t.Balance_After).Format(Format.Currency).Format(f => f.Type(Format.Currency).Precision(2));
+            columns.AddFor(t => t.Customer_Id).Visible(false);
+            columns.AddFor(t => t.Id).Visible(false);
+            columns.AddFor(t => t.Date).CssClass("cell-center");
+              columns.AddFor(t => t.Reference_Number).CssClass("cell-center");
+    
         })
        
     )
@@ -105,10 +116,10 @@
         )
         .Paging(p => p.PageSize(5))
         .Columns(columns => {
-             columns.AddFor(t => t.InvoiceNo);
-            columns.AddFor(t => t.Date);
-            columns.AddFor(t => t.Price).Format(Format.Currency); ;
-            
+             columns.AddFor(t => t.InvoiceNo).Width("60%");
+            columns.AddFor(t => t.Date).CssClass("cell-center").Width("15%");
+            columns.AddFor(t => t.Price).Format(Format.Currency).Format(f => f.Type(Format.Currency).Precision(2)).Width("13%");
+           columns.AddFor(m => m.Document_Path).CssClass("cell-center").Width("5%").CellTemplate(new JS("cellTemplate")); 
         })
        
     )
@@ -134,6 +145,7 @@
         editing.AllowDeleting(true);
         
     })
+
         .Height("90%")
         .Paging(p => p.PageSize(5))
         .Columns(columns => {
@@ -141,11 +153,12 @@
             columns.AddFor(t => t.Name).Lookup(lookup => lookup.DataSource(d => d.Mvc().Controller("Product").LoadAction("Get").Key("Id")).ValueExpr("Name").DisplayExpr("Name"));
             columns.AddFor(t => t.Description);
             columns.AddFor(t => t.UnitOfUsageId).Lookup(lookup => lookup.DataSource(d => d.Mvc().Controller("UnitOfUsage").LoadAction("Get").Key("Id")).ValueExpr("Id").DisplayExpr("Name"));
-            columns.AddFor(t => t.Price).Format(Format.Currency); ;
-            columns.AddFor(t => t.Discount_Percentage).Format(Format.Percent);
-            columns.AddFor(t => t.Customer_Price).Format(Format.Currency);
+            columns.AddFor(t => t.Price).Format(f => f.Type(Format.Currency).Precision(2)); 
+            columns.AddFor(t => t.Discount_Percentage).Format(Format.Percent).AllowEditing(false);
+            columns.AddFor(t => t.Customer_Price).Format(f => f.Type(Format.Currency).Precision(2));
             columns.AddFor(t => t.Customer_Id).AllowEditing(false).Visible(false);
         })
+        
         .DataSource(d => d.Mvc()
             .Controller("Discount")
                         .LoadAction("GetDiscountsById")

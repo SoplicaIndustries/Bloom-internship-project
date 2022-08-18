@@ -13,7 +13,7 @@ namespace WebPanel.Controllers
         public object Get(DataSourceLoadOptions loadOptions)
         {
             var client = new RestClient();
-            var request = new RestRequest("http://localhost:5223/api/Customers", Method.Get);
+            var request = new RestRequest("http://10.0.60.46:5223/api/Customers", Method.Get);
             var response = client.Execute(request);
             List<Customers> CustomerList = JsonConvert.DeserializeObject<List<Customers>>(response.Content);
 
@@ -31,7 +31,7 @@ namespace WebPanel.Controllers
         public static void Post(int Deposit)
         {
             var client = new RestClient();
-            var request = new RestRequest("http://localhost:5223/api/Currencies", Method.Post);
+            var request = new RestRequest("http://10.0.60.46:5223/api/Currencies", Method.Post);
 
             string ToSend = JsonConvert.SerializeObject(Deposit);
 
@@ -45,7 +45,7 @@ namespace WebPanel.Controllers
         public static decimal GetBalance(Guid GUID)
         {
             var client = new RestClient();
-            var request = new RestRequest($"http://localhost:5223/api/Foreign/{GUID}", Method.Get);
+            var request = new RestRequest($"http://10.0.60.46:5223/api/Foreign/{GUID}", Method.Get);
             var response = client.Execute(request);
             decimal Balance = JsonConvert.DeserializeObject<decimal>(response.Content);
 
@@ -59,7 +59,7 @@ namespace WebPanel.Controllers
         public static List<Customers> GetCustomers()
         {
             var client = new RestClient();
-            var request = new RestRequest("http://localhost:5223/api/Customers", Method.Get);
+            var request = new RestRequest("http://10.0.60.46:5223/api/Customers", Method.Get);
             var response = client.Execute(request);
             List<Customers> CustomerList = JsonConvert.DeserializeObject<List<Customers>>(response.Content);
 

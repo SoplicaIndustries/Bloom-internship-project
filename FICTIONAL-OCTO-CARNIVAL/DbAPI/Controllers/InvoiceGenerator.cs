@@ -11,12 +11,13 @@ namespace DbAPI.Controllers
     [ApiController]
     public class InvoiceGenerator : ControllerBase
     {
+        public static int InvNoCounter { get; set; } = 0;
 
         [HttpGet("{id}")]
         public byte[] DownloadInvoice(int id)
         {
             var client = new RestClient();
-            var request = new RestRequest("http://localhost:5223/api/Invoices", Method.Get);
+            var request = new RestRequest("http://10.0.60.46:5223/api/Invoices", Method.Get);
             List<Invoices> InvoiceList = JsonConvert.DeserializeObject<List<Invoices>>(client.Execute(request).Content);
             var invoices = InvoiceList.Find(i => i.Id == id);
 
@@ -44,12 +45,12 @@ namespace DbAPI.Controllers
 
             while (await timer.WaitForNextTickAsync())
             {
-                var request = new RestRequest("http://localhost:5223/api/Customers", Method.Get);
+                var request = new RestRequest("http://10.0.60.46:5223/api/Customers", Method.Get);
                 List<Customers> CustomerList = JsonConvert.DeserializeObject<List<Customers>>(client.Execute(request).Content);
 
                 foreach (Customers customer in CustomerList)
                 {
-                    request = new RestRequest("http://localhost:5223/api/Transactions", Method.Get);
+                    request = new RestRequest("http://10.0.60.46:5223/api/Transactions", Method.Get);
                     List<Transactions> customerTransactions = JsonConvert.DeserializeObject<List<Transactions>>(client.Execute(request).Content).FindAll(c => c.Customer_Id == customer.Id);
                     GenerateInvoice(customerTransactions, customer.Id);
                 }
@@ -138,8 +139,8 @@ namespace DbAPI.Controllers
 
             #region Pdf Generation
 
-
-            string invNo = $"{customerId}-{DateTime.Now.Month}-{DateTime.Now.Year}";
+            InvNoCounter++;
+            string invNo = $"FV {InvNoCounter}-{DateTime.Now.Month}-{DateTime.Now.Year}";
             string strFileName = $"{invNo}.pdf";
             Decimal price = transactions.Sum(tr => tr.Price);
 
@@ -175,9 +176,9 @@ namespace DbAPI.Controllers
             #endregion
 
             var client = new RestClient();
-            var request = new RestRequest("http://localhost:5223/api/Invoices/", Method.Post);
+            var request = new RestRequest("http://10.0.60.46:5223/api/Invoices/", Method.Post);
             request.AddHeader("Content-Type", "application/json");
-            request.AddParameter("application/json", new Invoices { Id = 0, Currency_Id = 1, Customer_Id = customerId, Date = DateTime.Now, Document_Path = FilePath, Price = price, InvoiceNo = $"" }, ParameterType.RequestBody);
+            request.AddParameter("application/json", new Invoices { Id = 0, Currency_Id = 1, Customer_Id = customerId, Date = DateTime.Now, Document_Path = FilePath, Price = price, InvoiceNo = invNo }, ParameterType.RequestBody);
             var response = client.Execute(request);
 
 

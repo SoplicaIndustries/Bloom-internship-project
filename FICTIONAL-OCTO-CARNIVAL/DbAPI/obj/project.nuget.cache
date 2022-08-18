@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FjFldYUJ44Ja+a49zLnTJNpnriMZN/i4kLhA/eglkfzDnX+w5FO7R7wUL8751ZahwyzHpvYyGEA3f5Si/zTUtA==",
+  "dgSpecHash": "YZg5iMFYFSaAKTHbfQ2MxBFtFoS6XylFT+5R6wnw02rSkedjK8AxAJcw/KjKXDuTd5m0QMB5veNP4RbklihJeA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\DbAPI\\DbAPI.csproj",
+  "projectFilePath": "C:\\Users\\pkurpiel\\billingservice\\DbAPI\\DbAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pkurpiel\\.nuget\\packages\\bouncycastle\\1.8.9\\bouncycastle.1.8.9.nupkg.sha512",
     "C:\\Users\\pkurpiel\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

@@ -14,7 +14,7 @@ namespace WebPanel.Controllers
         public object Get(DataSourceLoadOptions loadOptions)
         {
             var client = new RestClient();
-            var request = new RestRequest("http://localhost:5223/api/UnitsOfUsages", Method.Get);
+            var request = new RestRequest("http://10.0.60.46:5223/api/UnitsOfUsages", Method.Get);
             var response = client.Execute(request);
             IEnumerable<UnitsOfUsage> UnitsList = JsonConvert.DeserializeObject<IEnumerable<UnitsOfUsage>>(response.Content);
 
@@ -29,7 +29,7 @@ namespace WebPanel.Controllers
         public static List<UnitsOfUsage> GetUnits()
         {
             var client = new RestClient();
-            var request = new RestRequest("http://localhost:5223/api/UnitsOfUsages", Method.Get);
+            var request = new RestRequest("http://10.0.60.46:5223/api/UnitsOfUsages", Method.Get);
             var response = client.Execute(request);
             List<UnitsOfUsage> UnitsList = JsonConvert.DeserializeObject<List<UnitsOfUsage>>(response.Content);
 

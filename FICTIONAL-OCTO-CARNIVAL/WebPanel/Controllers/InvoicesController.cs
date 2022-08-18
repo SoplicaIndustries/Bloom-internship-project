@@ -13,7 +13,7 @@ namespace WebPanel.Controllers
         public object Get(DataSourceLoadOptions loadOptions)
         {
             var client = new RestClient();
-            var request = new RestRequest("http://localhost:5223/api/Invoices", Method.Get);
+            var request = new RestRequest("http://10.0.60.46:5223/api/Invoices", Method.Get);
             var response = client.Execute(request);
             List<Invoices> InvoiceList = JsonConvert.DeserializeObject<List<Invoices>>(response.Content);
 
@@ -27,7 +27,7 @@ namespace WebPanel.Controllers
         public object GetInvoicesById(Guid Id, DataSourceLoadOptions options)
         {
             var client = new RestClient();
-            var request = new RestRequest("http://localhost:5223/api/Invoices", Method.Get);
+            var request = new RestRequest("http://10.0.60.46:5223/api/Invoices", Method.Get);
             var response = client.Execute(request);
             List<Invoices> InvoiceList = JsonConvert.DeserializeObject<List<Invoices>>(response.Content);
             List<Invoices> filteredList = InvoiceList.FindAll(c => c.Customer_Id == Id);
@@ -40,7 +40,7 @@ namespace WebPanel.Controllers
             var request = new HttpRequestMessage
             {
                 Method = HttpMethod.Get,
-                RequestUri = new Uri($"http://localhost:5223/api/InvoiceGenerator/{id}"),
+                RequestUri = new Uri($"http://10.0.60.46:5223/api/InvoiceGenerator/{id}"),
 
             };
 

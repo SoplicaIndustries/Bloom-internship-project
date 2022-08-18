@@ -36,7 +36,7 @@ app.MapControllers();
 
 var InvGen = new InvoiceGenerator();
 
-Task.Run(InvGen.CreateInvoices);
+//Task.Run(InvGen.CreateInvoices);
 
 app.Run();
 

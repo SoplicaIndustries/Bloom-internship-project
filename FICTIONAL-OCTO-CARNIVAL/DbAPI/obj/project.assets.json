@@ -9844,11 +9844,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\DbAPI\\DbAPI.csproj",
+      "projectUniqueName": "C:\\Users\\pkurpiel\\billingservice\\DbAPI\\DbAPI.csproj",
       "projectName": "DbAPI",
-      "projectPath": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\DbAPI\\DbAPI.csproj",
+      "projectPath": "C:\\Users\\pkurpiel\\billingservice\\DbAPI\\DbAPI.csproj",
       "packagesPath": "C:\\Users\\pkurpiel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\DbAPI\\obj\\",
+      "outputPath": "C:\\Users\\pkurpiel\\billingservice\\DbAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages"

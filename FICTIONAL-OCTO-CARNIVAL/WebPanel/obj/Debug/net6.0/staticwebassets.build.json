@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "WnWMvDlgm3LmBJ8U+JljmK0CU4E0/1lqUzPmjcNzEsA=",
+  "Hash": "5ROyNy85K/y3TrNlrAFFSj53Kb3aVGNK7VK1dzBTzyc=",
   "Source": "WebPanel",
   "BasePath": "_content/WebPanel",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "WebPanel\\wwwroot",
       "Source": "WebPanel",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\css\\devextreme\\bootstrap.css",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\css\\devextreme\\bootstrap.css",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "css/devextreme/bootstrap.css",
       "AssetKind": "All",
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "wwwroot\\css\\devextreme\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\css\\devextreme\\bootstrap.min.css",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\css\\devextreme\\bootstrap.min.css",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "css/devextreme/bootstrap.min.css",
       "AssetKind": "All",
@@ -51,10 +51,10 @@
       "OriginalItemSpec": "wwwroot\\css\\devextreme\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\css\\devextreme\\Charset.css",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\css\\devextreme\\Charset.css",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "css/devextreme/Charset.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\devextreme\\Charset.css"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\css\\devextreme\\dx.carmine.compact.css",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\css\\devextreme\\dx.carmine.compact.css",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "css/devextreme/dx.carmine.compact.css",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\css\\devextreme\\dx.carmine.compact.css"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\css\\devextreme\\dx.carmine.css",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\css\\devextreme\\dx.carmine.css",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "css/devextreme/dx.carmine.css",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\css\\devextreme\\dx.carmine.css"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\css\\devextreme\\dx.common.css",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\css\\devextreme\\dx.common.css",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "css/devextreme/dx.common.css",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\css\\devextreme\\dx.common.css"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\css\\devextreme\\dx.contrast.compact.css",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\css\\devextreme\\dx.contrast.compact.css",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "css/devextreme/dx.contrast.compact.css",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\css\\devextreme\\dx.contrast.compact.css"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\css\\devextreme\\dx.contrast.css",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\css\\devextreme\\dx.contrast.css",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "css/devextreme/dx.contrast.css",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\css\\devextreme\\dx.contrast.css"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\css\\devextreme\\dx.dark.compact.css",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\css\\devextreme\\dx.dark.compact.css",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "css/devextreme/dx.dark.compact.css",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\css\\devextreme\\dx.dark.compact.css"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\css\\devextreme\\dx.dark.css",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\css\\devextreme\\dx.dark.css",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "css/devextreme/dx.dark.css",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\css\\devextreme\\dx.dark.css"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\css\\devextreme\\dx.darkmoon.compact.css",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\css\\devextreme\\dx.darkmoon.compact.css",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "css/devextreme/dx.darkmoon.compact.css",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\css\\devextreme\\dx.darkmoon.compact.css"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\css\\devextreme\\dx.darkmoon.css",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\css\\devextreme\\dx.darkmoon.css",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "css/devextreme/dx.darkmoon.css",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\css\\devextreme\\dx.darkmoon.css"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\css\\devextreme\\dx.darkviolet.compact.css",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\css\\devextreme\\dx.darkviolet.compact.css",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "css/devextreme/dx.darkviolet.compact.css",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\css\\devextreme\\dx.darkviolet.compact.css"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\css\\devextreme\\dx.darkviolet.css",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\css\\devextreme\\dx.darkviolet.css",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "css/devextreme/dx.darkviolet.css",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\css\\devextreme\\dx.darkviolet.css"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\css\\devextreme\\dx.greenmist.compact.css",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\css\\devextreme\\dx.greenmist.compact.css",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "css/devextreme/dx.greenmist.compact.css",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\css\\devextreme\\dx.greenmist.compact.css"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\css\\devextreme\\dx.greenmist.css",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\css\\devextreme\\dx.greenmist.css",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "css/devextreme/dx.greenmist.css",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\css\\devextreme\\dx.greenmist.css"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\css\\devextreme\\dx.light.compact.css",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\css\\devextreme\\dx.light.compact.css",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "css/devextreme/dx.light.compact.css",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\css\\devextreme\\dx.light.compact.css"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\css\\devextreme\\dx.light.css",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\css\\devextreme\\dx.light.css",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "css/devextreme/dx.light.css",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\css\\devextreme\\dx.light.css"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\css\\devextreme\\dx.material.blue.dark.compact.css",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\css\\devextreme\\dx.material.blue.dark.compact.css",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "css/devextreme/dx.material.blue.dark.compact.css",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\css\\devextreme\\dx.material.blue.dark.compact.css"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\css\\devextreme\\dx.material.blue.dark.css",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\css\\devextreme\\dx.material.blue.dark.css",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "css/devextreme/dx.material.blue.dark.css",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\css\\devextreme\\dx.material.blue.dark.css"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\css\\devextreme\\dx.material.blue.light.compact.css",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\css\\devextreme\\dx.material.blue.light.compact.css",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "css/devextreme/dx.material.blue.light.compact.css",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\css\\devextreme\\dx.material.blue.light.compact.css"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\css\\devextreme\\dx.material.blue.light.css",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\css\\devextreme\\dx.material.blue.light.css",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "css/devextreme/dx.material.blue.light.css",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\css\\devextreme\\dx.material.blue.light.css"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\css\\devextreme\\dx.material.lime.dark.compact.css",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\css\\devextreme\\dx.material.lime.dark.compact.css",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "css/devextreme/dx.material.lime.dark.compact.css",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\css\\devextreme\\dx.material.lime.dark.compact.css"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\css\\devextreme\\dx.material.lime.dark.css",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\css\\devextreme\\dx.material.lime.dark.css",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "css/devextreme/dx.material.lime.dark.css",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\css\\devextreme\\dx.material.lime.dark.css"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\css\\devextreme\\dx.material.lime.light.compact.css",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\css\\devextreme\\dx.material.lime.light.compact.css",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "css/devextreme/dx.material.lime.light.compact.css",
       "AssetKind": "All",
@@ -442,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\css\\devextreme\\dx.material.lime.light.compact.css"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\css\\devextreme\\dx.material.lime.light.css",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\css\\devextreme\\dx.material.lime.light.css",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "css/devextreme/dx.material.lime.light.css",
       "AssetKind": "All",
@@ -459,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\css\\devextreme\\dx.material.lime.light.css"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\css\\devextreme\\dx.material.orange.dark.compact.css",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\css\\devextreme\\dx.material.orange.dark.compact.css",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "css/devextreme/dx.material.orange.dark.compact.css",
       "AssetKind": "All",
@@ -476,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\css\\devextreme\\dx.material.orange.dark.compact.css"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\css\\devextreme\\dx.material.orange.dark.css",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\css\\devextreme\\dx.material.orange.dark.css",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "css/devextreme/dx.material.orange.dark.css",
       "AssetKind": "All",
@@ -493,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\css\\devextreme\\dx.material.orange.dark.css"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\css\\devextreme\\dx.material.orange.light.compact.css",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\css\\devextreme\\dx.material.orange.light.compact.css",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "css/devextreme/dx.material.orange.light.compact.css",
       "AssetKind": "All",
@@ -510,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\css\\devextreme\\dx.material.orange.light.compact.css"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\css\\devextreme\\dx.material.orange.light.css",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\css\\devextreme\\dx.material.orange.light.css",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "css/devextreme/dx.material.orange.light.css",
       "AssetKind": "All",
@@ -527,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\css\\devextreme\\dx.material.orange.light.css"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\css\\devextreme\\dx.material.purple.dark.compact.css",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\css\\devextreme\\dx.material.purple.dark.compact.css",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "css/devextreme/dx.material.purple.dark.compact.css",
       "AssetKind": "All",
@@ -544,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\css\\devextreme\\dx.material.purple.dark.compact.css"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\css\\devextreme\\dx.material.purple.dark.css",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\css\\devextreme\\dx.material.purple.dark.css",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "css/devextreme/dx.material.purple.dark.css",
       "AssetKind": "All",
@@ -561,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\css\\devextreme\\dx.material.purple.dark.css"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\css\\devextreme\\dx.material.purple.light.compact.css",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\css\\devextreme\\dx.material.purple.light.compact.css",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "css/devextreme/dx.material.purple.light.compact.css",
       "AssetKind": "All",
@@ -578,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\css\\devextreme\\dx.material.purple.light.compact.css"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\css\\devextreme\\dx.material.purple.light.css",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\css\\devextreme\\dx.material.purple.light.css",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "css/devextreme/dx.material.purple.light.css",
       "AssetKind": "All",
@@ -595,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\css\\devextreme\\dx.material.purple.light.css"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\css\\devextreme\\dx.material.teal.dark.compact.css",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\css\\devextreme\\dx.material.teal.dark.compact.css",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "css/devextreme/dx.material.teal.dark.compact.css",
       "AssetKind": "All",
@@ -612,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\css\\devextreme\\dx.material.teal.dark.compact.css"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\css\\devextreme\\dx.material.teal.dark.css",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\css\\devextreme\\dx.material.teal.dark.css",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "css/devextreme/dx.material.teal.dark.css",
       "AssetKind": "All",
@@ -629,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\css\\devextreme\\dx.material.teal.dark.css"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\css\\devextreme\\dx.material.teal.light.compact.css",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\css\\devextreme\\dx.material.teal.light.compact.css",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "css/devextreme/dx.material.teal.light.compact.css",
       "AssetKind": "All",
@@ -646,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\css\\devextreme\\dx.material.teal.light.compact.css"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\css\\devextreme\\dx.material.teal.light.css",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\css\\devextreme\\dx.material.teal.light.css",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "css/devextreme/dx.material.teal.light.css",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\css\\devextreme\\dx.material.teal.light.css"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\css\\devextreme\\dx.softblue.compact.css",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\css\\devextreme\\dx.softblue.compact.css",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "css/devextreme/dx.softblue.compact.css",
       "AssetKind": "All",
@@ -680,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\css\\devextreme\\dx.softblue.compact.css"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\css\\devextreme\\dx.softblue.css",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\css\\devextreme\\dx.softblue.css",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "css/devextreme/dx.softblue.css",
       "AssetKind": "All",
@@ -697,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\css\\devextreme\\dx.softblue.css"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\css\\devextreme\\dx-diagram.css",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\css\\devextreme\\dx-diagram.css",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "css/devextreme/dx-diagram.css",
       "AssetKind": "All",
@@ -714,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\css\\devextreme\\dx-diagram.css"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\css\\devextreme\\dx-diagram.min.css",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\css\\devextreme\\dx-diagram.min.css",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "css/devextreme/dx-diagram.min.css",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\css\\devextreme\\dx-diagram.min.css"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\css\\devextreme\\dx-gantt.css",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\css\\devextreme\\dx-gantt.css",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "css/devextreme/dx-gantt.css",
       "AssetKind": "All",
@@ -748,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\css\\devextreme\\dx-gantt.css"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\css\\devextreme\\dx-gantt.min.css",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\css\\devextreme\\dx-gantt.min.css",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "css/devextreme/dx-gantt.min.css",
       "AssetKind": "All",
@@ -765,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\css\\devextreme\\dx-gantt.min.css"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\css\\devextreme\\fonts\\Roboto-300.ttf",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\css\\devextreme\\fonts\\Roboto-300.ttf",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "css/devextreme/fonts/Roboto-300.ttf",
       "AssetKind": "All",
@@ -782,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\css\\devextreme\\fonts\\Roboto-300.ttf"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\css\\devextreme\\fonts\\Roboto-300.woff",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\css\\devextreme\\fonts\\Roboto-300.woff",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "css/devextreme/fonts/Roboto-300.woff",
       "AssetKind": "All",
@@ -799,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\css\\devextreme\\fonts\\Roboto-300.woff"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\css\\devextreme\\fonts\\Roboto-300.woff2",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\css\\devextreme\\fonts\\Roboto-300.woff2",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "css/devextreme/fonts/Roboto-300.woff2",
       "AssetKind": "All",
@@ -816,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\css\\devextreme\\fonts\\Roboto-300.woff2"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\css\\devextreme\\fonts\\Roboto-400.ttf",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\css\\devextreme\\fonts\\Roboto-400.ttf",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "css/devextreme/fonts/Roboto-400.ttf",
       "AssetKind": "All",
@@ -833,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\css\\devextreme\\fonts\\Roboto-400.ttf"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\css\\devextreme\\fonts\\Roboto-400.woff",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\css\\devextreme\\fonts\\Roboto-400.woff",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "css/devextreme/fonts/Roboto-400.woff",
       "AssetKind": "All",
@@ -850,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\css\\devextreme\\fonts\\Roboto-400.woff"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\css\\devextreme\\fonts\\Roboto-400.woff2",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\css\\devextreme\\fonts\\Roboto-400.woff2",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "css/devextreme/fonts/Roboto-400.woff2",
       "AssetKind": "All",
@@ -867,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\css\\devextreme\\fonts\\Roboto-400.woff2"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\css\\devextreme\\fonts\\Roboto-500.ttf",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\css\\devextreme\\fonts\\Roboto-500.ttf",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "css/devextreme/fonts/Roboto-500.ttf",
       "AssetKind": "All",
@@ -884,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\css\\devextreme\\fonts\\Roboto-500.ttf"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\css\\devextreme\\fonts\\Roboto-500.woff",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\css\\devextreme\\fonts\\Roboto-500.woff",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "css/devextreme/fonts/Roboto-500.woff",
       "AssetKind": "All",
@@ -901,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\css\\devextreme\\fonts\\Roboto-500.woff"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\css\\devextreme\\fonts\\Roboto-500.woff2",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\css\\devextreme\\fonts\\Roboto-500.woff2",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "css/devextreme/fonts/Roboto-500.woff2",
       "AssetKind": "All",
@@ -918,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\css\\devextreme\\fonts\\Roboto-500.woff2"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\css\\devextreme\\fonts\\Roboto-700.ttf",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\css\\devextreme\\fonts\\Roboto-700.ttf",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "css/devextreme/fonts/Roboto-700.ttf",
       "AssetKind": "All",
@@ -935,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\css\\devextreme\\fonts\\Roboto-700.ttf"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\css\\devextreme\\fonts\\Roboto-700.woff",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\css\\devextreme\\fonts\\Roboto-700.woff",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "css/devextreme/fonts/Roboto-700.woff",
       "AssetKind": "All",
@@ -952,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\css\\devextreme\\fonts\\Roboto-700.woff"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\css\\devextreme\\fonts\\Roboto-700.woff2",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\css\\devextreme\\fonts\\Roboto-700.woff2",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "css/devextreme/fonts/Roboto-700.woff2",
       "AssetKind": "All",
@@ -969,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\css\\devextreme\\fonts\\Roboto-700.woff2"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\css\\devextreme\\icons\\dxicons.ttf",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\css\\devextreme\\icons\\dxicons.ttf",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "css/devextreme/icons/dxicons.ttf",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\css\\devextreme\\icons\\dxicons.ttf"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\css\\devextreme\\icons\\dxicons.woff",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\css\\devextreme\\icons\\dxicons.woff",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "css/devextreme/icons/dxicons.woff",
       "AssetKind": "All",
@@ -1003,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\css\\devextreme\\icons\\dxicons.woff"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\css\\devextreme\\icons\\dxicons.woff2",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\css\\devextreme\\icons\\dxicons.woff2",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "css/devextreme/icons/dxicons.woff2",
       "AssetKind": "All",
@@ -1020,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\css\\devextreme\\icons\\dxicons.woff2"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\css\\devextreme\\icons\\dxiconsmaterial.ttf",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\css\\devextreme\\icons\\dxiconsmaterial.ttf",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "css/devextreme/icons/dxiconsmaterial.ttf",
       "AssetKind": "All",
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\css\\devextreme\\icons\\dxiconsmaterial.ttf"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\css\\devextreme\\icons\\dxiconsmaterial.woff",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\css\\devextreme\\icons\\dxiconsmaterial.woff",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "css/devextreme/icons/dxiconsmaterial.woff",
       "AssetKind": "All",
@@ -1054,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\css\\devextreme\\icons\\dxiconsmaterial.woff"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\css\\devextreme\\icons\\dxiconsmaterial.woff2",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\css\\devextreme\\icons\\dxiconsmaterial.woff2",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "css/devextreme/icons/dxiconsmaterial.woff2",
       "AssetKind": "All",
@@ -1071,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\css\\devextreme\\icons\\dxiconsmaterial.woff2"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\css\\Site.css",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\css\\Site.css",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "css/Site.css",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\css\\Site.css"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\css\\vendor.css",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\css\\vendor.css",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "css/vendor.css",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\css\\vendor.css"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\js\\devextreme\\aspnet\\dx.aspnet.data.js",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\js\\devextreme\\aspnet\\dx.aspnet.data.js",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "js/devextreme/aspnet/dx.aspnet.data.js",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\js\\devextreme\\aspnet\\dx.aspnet.data.js"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\js\\devextreme\\aspnet\\dx.aspnet.mvc.js",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\js\\devextreme\\aspnet\\dx.aspnet.mvc.js",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "js/devextreme/aspnet/dx.aspnet.mvc.js",
       "AssetKind": "All",
@@ -1139,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\js\\devextreme\\aspnet\\dx.aspnet.mvc.js"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\js\\devextreme\\bootstrap.js",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\js\\devextreme\\bootstrap.js",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "js/devextreme/bootstrap.js",
       "AssetKind": "All",
@@ -1156,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\js\\devextreme\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\js\\devextreme\\bootstrap.min.js",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\js\\devextreme\\bootstrap.min.js",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "js/devextreme/bootstrap.min.js",
       "AssetKind": "All",
@@ -1173,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\js\\devextreme\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\js\\devextreme\\cldr.js",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\js\\devextreme\\cldr.js",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "js/devextreme/cldr.js",
       "AssetKind": "All",
@@ -1190,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\js\\devextreme\\cldr.js"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\js\\devextreme\\cldr.min.js",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\js\\devextreme\\cldr.min.js",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "js/devextreme/cldr.min.js",
       "AssetKind": "All",
@@ -1207,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\js\\devextreme\\cldr.min.js"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\js\\devextreme\\cldr\\event.js",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\js\\devextreme\\cldr\\event.js",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "js/devextreme/cldr/event.js",
       "AssetKind": "All",
@@ -1224,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\js\\devextreme\\cldr\\event.js"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\js\\devextreme\\cldr\\event.min.js",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\js\\devextreme\\cldr\\event.min.js",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "js/devextreme/cldr/event.min.js",
       "AssetKind": "All",
@@ -1241,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\js\\devextreme\\cldr\\event.min.js"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\js\\devextreme\\cldr\\supplemental.js",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\js\\devextreme\\cldr\\supplemental.js",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "js/devextreme/cldr/supplemental.js",
       "AssetKind": "All",
@@ -1258,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\js\\devextreme\\cldr\\supplemental.js"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\js\\devextreme\\cldr\\supplemental.min.js",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\js\\devextreme\\cldr\\supplemental.min.js",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "js/devextreme/cldr/supplemental.min.js",
       "AssetKind": "All",
@@ -1275,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\js\\devextreme\\cldr\\supplemental.min.js"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\js\\devextreme\\cldr\\unresolved.js",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\js\\devextreme\\cldr\\unresolved.js",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "js/devextreme/cldr/unresolved.js",
       "AssetKind": "All",
@@ -1292,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\js\\devextreme\\cldr\\unresolved.js"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\js\\devextreme\\cldr\\unresolved.min.js",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\js\\devextreme\\cldr\\unresolved.min.js",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "js/devextreme/cldr/unresolved.min.js",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\js\\devextreme\\cldr\\unresolved.min.js"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\js\\devextreme\\dx.all.debug.js",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\js\\devextreme\\dx.all.debug.js",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "js/devextreme/dx.all.debug.js",
       "AssetKind": "All",
@@ -1326,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\js\\devextreme\\dx.all.debug.js"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\js\\devextreme\\dx.all.js",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\js\\devextreme\\dx.all.js",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "js/devextreme/dx.all.js",
       "AssetKind": "All",
@@ -1343,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\js\\devextreme\\dx.all.js"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\js\\devextreme\\dx.viz.debug.js",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\js\\devextreme\\dx.viz.debug.js",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "js/devextreme/dx.viz.debug.js",
       "AssetKind": "All",
@@ -1360,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\js\\devextreme\\dx.viz.debug.js"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\js\\devextreme\\dx.viz.js",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\js\\devextreme\\dx.viz.js",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "js/devextreme/dx.viz.js",
       "AssetKind": "All",
@@ -1377,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot\\js\\devextreme\\dx.viz.js"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\js\\devextreme\\dx.web.debug.js",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\js\\devextreme\\dx.web.debug.js",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "js/devextreme/dx.web.debug.js",
       "AssetKind": "All",
@@ -1394,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\js\\devextreme\\dx.web.debug.js"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\js\\devextreme\\dx.web.js",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\js\\devextreme\\dx.web.js",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "js/devextreme/dx.web.js",
       "AssetKind": "All",
@@ -1411,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\js\\devextreme\\dx.web.js"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\js\\devextreme\\dx-diagram.js",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\js\\devextreme\\dx-diagram.js",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "js/devextreme/dx-diagram.js",
       "AssetKind": "All",
@@ -1428,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\js\\devextreme\\dx-diagram.js"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\js\\devextreme\\dx-diagram.min.js",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\js\\devextreme\\dx-diagram.min.js",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "js/devextreme/dx-diagram.min.js",
       "AssetKind": "All",
@@ -1445,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\js\\devextreme\\dx-diagram.min.js"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\js\\devextreme\\dx-gantt.js",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\js\\devextreme\\dx-gantt.js",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "js/devextreme/dx-gantt.js",
       "AssetKind": "All",
@@ -1462,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\js\\devextreme\\dx-gantt.js"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\js\\devextreme\\dx-gantt.min.js",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\js\\devextreme\\dx-gantt.min.js",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "js/devextreme/dx-gantt.min.js",
       "AssetKind": "All",
@@ -1479,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\js\\devextreme\\dx-gantt.min.js"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\js\\devextreme\\dx-quill.js",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\js\\devextreme\\dx-quill.js",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "js/devextreme/dx-quill.js",
       "AssetKind": "All",
@@ -1496,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\js\\devextreme\\dx-quill.js"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\js\\devextreme\\dx-quill.min.js",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\js\\devextreme\\dx-quill.min.js",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "js/devextreme/dx-quill.min.js",
       "AssetKind": "All",
@@ -1513,10 +1513,10 @@
       "OriginalItemSpec": "wwwroot\\js\\devextreme\\dx-quill.min.js"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\js\\devextreme\\exceljs.js",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\js\\devextreme\\exceljs.js",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "js/devextreme/exceljs.js",
       "AssetKind": "All",
@@ -1530,10 +1530,10 @@
       "OriginalItemSpec": "wwwroot\\js\\devextreme\\exceljs.js"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\js\\devextreme\\exceljs.min.js",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\js\\devextreme\\exceljs.min.js",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "js/devextreme/exceljs.min.js",
       "AssetKind": "All",
@@ -1547,10 +1547,10 @@
       "OriginalItemSpec": "wwwroot\\js\\devextreme\\exceljs.min.js"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\js\\devextreme\\FileSaver.js",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\js\\devextreme\\FileSaver.js",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "js/devextreme/FileSaver.js",
       "AssetKind": "All",
@@ -1564,10 +1564,10 @@
       "OriginalItemSpec": "wwwroot\\js\\devextreme\\FileSaver.js"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\js\\devextreme\\FileSaver.min.js",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\js\\devextreme\\FileSaver.min.js",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "js/devextreme/FileSaver.min.js",
       "AssetKind": "All",
@@ -1581,10 +1581,10 @@
       "OriginalItemSpec": "wwwroot\\js\\devextreme\\FileSaver.min.js"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\js\\devextreme\\globalize.js",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\js\\devextreme\\globalize.js",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "js/devextreme/globalize.js",
       "AssetKind": "All",
@@ -1598,10 +1598,10 @@
       "OriginalItemSpec": "wwwroot\\js\\devextreme\\globalize.js"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\js\\devextreme\\globalize.min.js",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\js\\devextreme\\globalize.min.js",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "js/devextreme/globalize.min.js",
       "AssetKind": "All",
@@ -1615,10 +1615,10 @@
       "OriginalItemSpec": "wwwroot\\js\\devextreme\\globalize.min.js"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\js\\devextreme\\globalize\\currency.js",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\js\\devextreme\\globalize\\currency.js",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "js/devextreme/globalize/currency.js",
       "AssetKind": "All",
@@ -1632,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\js\\devextreme\\globalize\\currency.js"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\js\\devextreme\\globalize\\currency.min.js",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\js\\devextreme\\globalize\\currency.min.js",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "js/devextreme/globalize/currency.min.js",
       "AssetKind": "All",
@@ -1649,10 +1649,10 @@
       "OriginalItemSpec": "wwwroot\\js\\devextreme\\globalize\\currency.min.js"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\js\\devextreme\\globalize\\date.js",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\js\\devextreme\\globalize\\date.js",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "js/devextreme/globalize/date.js",
       "AssetKind": "All",
@@ -1666,10 +1666,10 @@
       "OriginalItemSpec": "wwwroot\\js\\devextreme\\globalize\\date.js"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\js\\devextreme\\globalize\\date.min.js",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\js\\devextreme\\globalize\\date.min.js",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "js/devextreme/globalize/date.min.js",
       "AssetKind": "All",
@@ -1683,10 +1683,10 @@
       "OriginalItemSpec": "wwwroot\\js\\devextreme\\globalize\\date.min.js"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\js\\devextreme\\globalize\\message.js",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\js\\devextreme\\globalize\\message.js",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "js/devextreme/globalize/message.js",
       "AssetKind": "All",
@@ -1700,10 +1700,10 @@
       "OriginalItemSpec": "wwwroot\\js\\devextreme\\globalize\\message.js"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\js\\devextreme\\globalize\\message.min.js",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\js\\devextreme\\globalize\\message.min.js",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "js/devextreme/globalize/message.min.js",
       "AssetKind": "All",
@@ -1717,10 +1717,10 @@
       "OriginalItemSpec": "wwwroot\\js\\devextreme\\globalize\\message.min.js"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\js\\devextreme\\globalize\\number.js",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\js\\devextreme\\globalize\\number.js",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "js/devextreme/globalize/number.js",
       "AssetKind": "All",
@@ -1734,10 +1734,10 @@
       "OriginalItemSpec": "wwwroot\\js\\devextreme\\globalize\\number.js"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\js\\devextreme\\globalize\\number.min.js",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\js\\devextreme\\globalize\\number.min.js",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "js/devextreme/globalize/number.min.js",
       "AssetKind": "All",
@@ -1751,10 +1751,10 @@
       "OriginalItemSpec": "wwwroot\\js\\devextreme\\globalize\\number.min.js"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\js\\devextreme\\jquery.js",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\js\\devextreme\\jquery.js",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "js/devextreme/jquery.js",
       "AssetKind": "All",
@@ -1768,10 +1768,10 @@
       "OriginalItemSpec": "wwwroot\\js\\devextreme\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\js\\devextreme\\jquery.min.js",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\js\\devextreme\\jquery.min.js",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "js/devextreme/jquery.min.js",
       "AssetKind": "All",
@@ -1785,10 +1785,10 @@
       "OriginalItemSpec": "wwwroot\\js\\devextreme\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\js\\devextreme\\jspdf.plugin.autotable.js",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\js\\devextreme\\jspdf.plugin.autotable.js",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "js/devextreme/jspdf.plugin.autotable.js",
       "AssetKind": "All",
@@ -1802,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot\\js\\devextreme\\jspdf.plugin.autotable.js"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\js\\devextreme\\jspdf.plugin.autotable.min.js",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\js\\devextreme\\jspdf.plugin.autotable.min.js",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "js/devextreme/jspdf.plugin.autotable.min.js",
       "AssetKind": "All",
@@ -1819,10 +1819,10 @@
       "OriginalItemSpec": "wwwroot\\js\\devextreme\\jspdf.plugin.autotable.min.js"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\js\\devextreme\\jspdf.umd.js",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\js\\devextreme\\jspdf.umd.js",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "js/devextreme/jspdf.umd.js",
       "AssetKind": "All",
@@ -1836,10 +1836,10 @@
       "OriginalItemSpec": "wwwroot\\js\\devextreme\\jspdf.umd.js"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\js\\devextreme\\jspdf.umd.min.js",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\js\\devextreme\\jspdf.umd.min.js",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "js/devextreme/jspdf.umd.min.js",
       "AssetKind": "All",
@@ -1853,10 +1853,10 @@
       "OriginalItemSpec": "wwwroot\\js\\devextreme\\jspdf.umd.min.js"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\js\\devextreme\\jszip.js",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\js\\devextreme\\jszip.js",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "js/devextreme/jszip.js",
       "AssetKind": "All",
@@ -1870,10 +1870,10 @@
       "OriginalItemSpec": "wwwroot\\js\\devextreme\\jszip.js"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\js\\devextreme\\jszip.min.js",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\js\\devextreme\\jszip.min.js",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "js/devextreme/jszip.min.js",
       "AssetKind": "All",
@@ -1887,10 +1887,10 @@
       "OriginalItemSpec": "wwwroot\\js\\devextreme\\jszip.min.js"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\js\\devextreme\\localization\\dx.messages.ar.js",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\js\\devextreme\\localization\\dx.messages.ar.js",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "js/devextreme/localization/dx.messages.ar.js",
       "AssetKind": "All",
@@ -1904,10 +1904,10 @@
       "OriginalItemSpec": "wwwroot\\js\\devextreme\\localization\\dx.messages.ar.js"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\js\\devextreme\\localization\\dx.messages.cs.js",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\js\\devextreme\\localization\\dx.messages.cs.js",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "js/devextreme/localization/dx.messages.cs.js",
       "AssetKind": "All",
@@ -1921,10 +1921,10 @@
       "OriginalItemSpec": "wwwroot\\js\\devextreme\\localization\\dx.messages.cs.js"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\js\\devextreme\\localization\\dx.messages.de.js",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\js\\devextreme\\localization\\dx.messages.de.js",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "js/devextreme/localization/dx.messages.de.js",
       "AssetKind": "All",
@@ -1938,10 +1938,10 @@
       "OriginalItemSpec": "wwwroot\\js\\devextreme\\localization\\dx.messages.de.js"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\js\\devextreme\\localization\\dx.messages.el.js",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\js\\devextreme\\localization\\dx.messages.el.js",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "js/devextreme/localization/dx.messages.el.js",
       "AssetKind": "All",
@@ -1955,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\js\\devextreme\\localization\\dx.messages.el.js"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\js\\devextreme\\localization\\dx.messages.en.js",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\js\\devextreme\\localization\\dx.messages.en.js",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "js/devextreme/localization/dx.messages.en.js",
       "AssetKind": "All",
@@ -1972,10 +1972,10 @@
       "OriginalItemSpec": "wwwroot\\js\\devextreme\\localization\\dx.messages.en.js"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\js\\devextreme\\localization\\dx.messages.es.js",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\js\\devextreme\\localization\\dx.messages.es.js",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "js/devextreme/localization/dx.messages.es.js",
       "AssetKind": "All",
@@ -1989,10 +1989,10 @@
       "OriginalItemSpec": "wwwroot\\js\\devextreme\\localization\\dx.messages.es.js"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\js\\devextreme\\localization\\dx.messages.fi.js",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\js\\devextreme\\localization\\dx.messages.fi.js",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "js/devextreme/localization/dx.messages.fi.js",
       "AssetKind": "All",
@@ -2006,10 +2006,10 @@
       "OriginalItemSpec": "wwwroot\\js\\devextreme\\localization\\dx.messages.fi.js"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\js\\devextreme\\localization\\dx.messages.fr.js",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\js\\devextreme\\localization\\dx.messages.fr.js",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "js/devextreme/localization/dx.messages.fr.js",
       "AssetKind": "All",
@@ -2023,10 +2023,10 @@
       "OriginalItemSpec": "wwwroot\\js\\devextreme\\localization\\dx.messages.fr.js"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\js\\devextreme\\localization\\dx.messages.hu.js",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\js\\devextreme\\localization\\dx.messages.hu.js",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "js/devextreme/localization/dx.messages.hu.js",
       "AssetKind": "All",
@@ -2040,10 +2040,10 @@
       "OriginalItemSpec": "wwwroot\\js\\devextreme\\localization\\dx.messages.hu.js"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\js\\devextreme\\localization\\dx.messages.it.js",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\js\\devextreme\\localization\\dx.messages.it.js",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "js/devextreme/localization/dx.messages.it.js",
       "AssetKind": "All",
@@ -2057,10 +2057,10 @@
       "OriginalItemSpec": "wwwroot\\js\\devextreme\\localization\\dx.messages.it.js"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\js\\devextreme\\localization\\dx.messages.ja.js",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\js\\devextreme\\localization\\dx.messages.ja.js",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "js/devextreme/localization/dx.messages.ja.js",
       "AssetKind": "All",
@@ -2074,10 +2074,10 @@
       "OriginalItemSpec": "wwwroot\\js\\devextreme\\localization\\dx.messages.ja.js"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\js\\devextreme\\localization\\dx.messages.nb.js",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\js\\devextreme\\localization\\dx.messages.nb.js",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "js/devextreme/localization/dx.messages.nb.js",
       "AssetKind": "All",
@@ -2091,10 +2091,10 @@
       "OriginalItemSpec": "wwwroot\\js\\devextreme\\localization\\dx.messages.nb.js"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\js\\devextreme\\localization\\dx.messages.nl.js",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\js\\devextreme\\localization\\dx.messages.nl.js",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "js/devextreme/localization/dx.messages.nl.js",
       "AssetKind": "All",
@@ -2108,10 +2108,10 @@
       "OriginalItemSpec": "wwwroot\\js\\devextreme\\localization\\dx.messages.nl.js"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\js\\devextreme\\localization\\dx.messages.pt.js",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\js\\devextreme\\localization\\dx.messages.pt.js",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "js/devextreme/localization/dx.messages.pt.js",
       "AssetKind": "All",
@@ -2125,10 +2125,10 @@
       "OriginalItemSpec": "wwwroot\\js\\devextreme\\localization\\dx.messages.pt.js"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\js\\devextreme\\localization\\dx.messages.ro.js",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\js\\devextreme\\localization\\dx.messages.ro.js",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "js/devextreme/localization/dx.messages.ro.js",
       "AssetKind": "All",
@@ -2142,10 +2142,10 @@
       "OriginalItemSpec": "wwwroot\\js\\devextreme\\localization\\dx.messages.ro.js"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\js\\devextreme\\localization\\dx.messages.ru.js",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\js\\devextreme\\localization\\dx.messages.ru.js",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "js/devextreme/localization/dx.messages.ru.js",
       "AssetKind": "All",
@@ -2159,10 +2159,10 @@
       "OriginalItemSpec": "wwwroot\\js\\devextreme\\localization\\dx.messages.ru.js"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\js\\devextreme\\localization\\dx.messages.sl.js",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\js\\devextreme\\localization\\dx.messages.sl.js",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "js/devextreme/localization/dx.messages.sl.js",
       "AssetKind": "All",
@@ -2176,10 +2176,10 @@
       "OriginalItemSpec": "wwwroot\\js\\devextreme\\localization\\dx.messages.sl.js"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\js\\devextreme\\localization\\dx.messages.sv.js",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\js\\devextreme\\localization\\dx.messages.sv.js",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "js/devextreme/localization/dx.messages.sv.js",
       "AssetKind": "All",
@@ -2193,10 +2193,10 @@
       "OriginalItemSpec": "wwwroot\\js\\devextreme\\localization\\dx.messages.sv.js"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\js\\devextreme\\localization\\dx.messages.tr.js",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\js\\devextreme\\localization\\dx.messages.tr.js",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "js/devextreme/localization/dx.messages.tr.js",
       "AssetKind": "All",
@@ -2210,10 +2210,10 @@
       "OriginalItemSpec": "wwwroot\\js\\devextreme\\localization\\dx.messages.tr.js"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\js\\devextreme\\localization\\dx.messages.vi.js",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\js\\devextreme\\localization\\dx.messages.vi.js",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "js/devextreme/localization/dx.messages.vi.js",
       "AssetKind": "All",
@@ -2227,10 +2227,10 @@
       "OriginalItemSpec": "wwwroot\\js\\devextreme\\localization\\dx.messages.vi.js"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\js\\devextreme\\localization\\dx.messages.zh.js",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\js\\devextreme\\localization\\dx.messages.zh.js",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "js/devextreme/localization/dx.messages.zh.js",
       "AssetKind": "All",
@@ -2244,10 +2244,10 @@
       "OriginalItemSpec": "wwwroot\\js\\devextreme\\localization\\dx.messages.zh.js"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\js\\devextreme\\localization\\dx.messages.zh-tw.js",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\js\\devextreme\\localization\\dx.messages.zh-tw.js",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "js/devextreme/localization/dx.messages.zh-tw.js",
       "AssetKind": "All",
@@ -2261,10 +2261,10 @@
       "OriginalItemSpec": "wwwroot\\js\\devextreme\\localization\\dx.messages.zh-tw.js"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\js\\devextreme\\vectormap-data\\africa.js",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\js\\devextreme\\vectormap-data\\africa.js",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "js/devextreme/vectormap-data/africa.js",
       "AssetKind": "All",
@@ -2278,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\js\\devextreme\\vectormap-data\\africa.js"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\js\\devextreme\\vectormap-data\\canada.js",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\js\\devextreme\\vectormap-data\\canada.js",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "js/devextreme/vectormap-data/canada.js",
       "AssetKind": "All",
@@ -2295,10 +2295,10 @@
       "OriginalItemSpec": "wwwroot\\js\\devextreme\\vectormap-data\\canada.js"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\js\\devextreme\\vectormap-data\\eurasia.js",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\js\\devextreme\\vectormap-data\\eurasia.js",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "js/devextreme/vectormap-data/eurasia.js",
       "AssetKind": "All",
@@ -2312,10 +2312,10 @@
       "OriginalItemSpec": "wwwroot\\js\\devextreme\\vectormap-data\\eurasia.js"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\js\\devextreme\\vectormap-data\\europe.js",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\js\\devextreme\\vectormap-data\\europe.js",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "js/devextreme/vectormap-data/europe.js",
       "AssetKind": "All",
@@ -2329,10 +2329,10 @@
       "OriginalItemSpec": "wwwroot\\js\\devextreme\\vectormap-data\\europe.js"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\js\\devextreme\\vectormap-data\\usa.js",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\js\\devextreme\\vectormap-data\\usa.js",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "js/devextreme/vectormap-data/usa.js",
       "AssetKind": "All",
@@ -2346,10 +2346,10 @@
       "OriginalItemSpec": "wwwroot\\js\\devextreme\\vectormap-data\\usa.js"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\js\\devextreme\\vectormap-data\\world.js",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\js\\devextreme\\vectormap-data\\world.js",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "js/devextreme/vectormap-data/world.js",
       "AssetKind": "All",
@@ -2363,10 +2363,10 @@
       "OriginalItemSpec": "wwwroot\\js\\devextreme\\vectormap-data\\world.js"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\js\\devextreme\\vectormap-utils\\dx.vectormaputils.debug.js",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\js\\devextreme\\vectormap-utils\\dx.vectormaputils.debug.js",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "js/devextreme/vectormap-utils/dx.vectormaputils.debug.js",
       "AssetKind": "All",
@@ -2380,10 +2380,10 @@
       "OriginalItemSpec": "wwwroot\\js\\devextreme\\vectormap-utils\\dx.vectormaputils.debug.js"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\js\\devextreme\\vectormap-utils\\dx.vectormaputils.js",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\js\\devextreme\\vectormap-utils\\dx.vectormaputils.js",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "js/devextreme/vectormap-utils/dx.vectormaputils.js",
       "AssetKind": "All",
@@ -2397,10 +2397,10 @@
       "OriginalItemSpec": "wwwroot\\js\\devextreme\\vectormap-utils\\dx.vectormaputils.js"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\js\\devextreme\\vectormap-utils\\dx.vectormaputils.node.js",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\js\\devextreme\\vectormap-utils\\dx.vectormaputils.node.js",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "js/devextreme/vectormap-utils/dx.vectormaputils.node.js",
       "AssetKind": "All",
@@ -2414,10 +2414,10 @@
       "OriginalItemSpec": "wwwroot\\js\\devextreme\\vectormap-utils\\dx.vectormaputils.node.js"
     },
     {
-      "Identity": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\js\\vendor.js",
+      "Identity": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\js\\vendor.js",
       "SourceId": "WebPanel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pkurpiel\\Documents\\GitHub\\Bloom-fictional-octo-carnival\\FICTIONAL-OCTO-CARNIVAL\\WebPanel\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pkurpiel\\billingservice\\WebPanel\\wwwroot\\",
       "BasePath": "_content/WebPanel",
       "RelativePath": "js/vendor.js",
       "AssetKind": "All",

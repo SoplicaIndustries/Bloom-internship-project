@@ -9,18 +9,29 @@ namespace WebPanel.Controllers
 {
     public class TransactionsController : Controller
     {
+        public static List<Products> GetProducts()
+        {
+            var client = new RestClient();
+            var request = new RestRequest("http://10.0.60.46:5223/api/Products", Method.Get);
+            var response = client.Execute(request);
+            List<Products> ProductsList = JsonConvert.DeserializeObject<List<Products>>(response.Content);
+
+            return ProductsList;
+        }
+
 
         [HttpGet]
         public object Get(DataSourceLoadOptions loadOptions)
         {
             var client = new RestClient();
-            var request = new RestRequest("http://localhost:5223/api/Transactions", Method.Get);
+            var request = new RestRequest("http://10.0.60.46:5223/api/Transactions", Method.Get);
             var response = client.Execute(request);
             List<Transactions> TransactionsList = JsonConvert.DeserializeObject<List<Transactions>>(response.Content);
+           
             List<Customers> CustomerList = CustomerController.GetCustomers();
             Guid guid = new Guid("3fa85f62-5717-4562-b3fc-2c963f66afa6");
             List<Transactions> Klar = TransactionsList.FindAll(c => c.Customer_Id == guid);
-
+          
 
             return DataSourceLoader.Load(Klar, loadOptions);
         }
@@ -30,10 +41,23 @@ namespace WebPanel.Controllers
         public object GetTransactionById(Guid Id, DataSourceLoadOptions options)
         {
             var client = new RestClient();
-            var request = new RestRequest("http://localhost:5223/api/Transactions", Method.Get);
+            var request = new RestRequest("http://10.0.60.46:5223/api/Transactions", Method.Get);
             var response = client.Execute(request);
             List<Transactions> TransactionsList = JsonConvert.DeserializeObject<List<Transactions>>(response.Content);
             List<Transactions> filteredList = TransactionsList.FindAll(c => c.Customer_Id == Id);
+            List<Products> Products = GetProducts();
+
+            foreach (Transactions trans in filteredList)
+            {
+                Products product;
+                product = Products.Find(c => c.Id == trans.Product_Id);
+                if (product != null) { 
+                trans.Product_Name = product.Name;
+            }
+                }
+
+
+
             return DataSourceLoader.Load(filteredList, options);
         }
 
@@ -53,7 +77,7 @@ namespace WebPanel.Controllers
             trans.Reference_Number = Guid.NewGuid();
             trans.Balance_After = Balance + deposit;
             var client = new RestClient();
-            var request = new RestRequest("http://localhost:5223/api/Transactions", Method.Post);
+            var request = new RestRequest("http://10.0.60.46:5223/api/Transactions", Method.Post);
 
 
             string ToSend = JsonConvert.SerializeObject(trans);

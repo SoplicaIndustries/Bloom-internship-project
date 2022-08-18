@@ -2,13 +2,13 @@
 @using WebPanel.Models
 <h2>Invoices</h2>
 <style>
-    .kurwa{
+    .cell-center{
           text-align: center!important  
     }
-    kurwa{
+    cell-center{
           text-align: center!important  
     }
-    #kurwa{
+    #cell-center{
   text-align: center!important  
     }
 
@@ -46,9 +46,9 @@
     .DataSource(d => d.Mvc().Controller("Invoices").LoadMethod("Get").Key("Id").LoadAction("Get"))
     .Columns(columns => {
         columns.AddFor(m => m.InvoiceNo).Width("55%");
-        columns.AddFor(m => m.Date).Width("17%");
-        columns.AddFor(m => m.Price).Width("17%").Format(Format.Currency); ;
-         columns.AddFor(m => m.Document_Path).Width("5%").CellTemplate(new JS("cellTemplate"));  
+        columns.AddFor(m => m.Date).Width("17%").CssClass("cell-center");
+        columns.AddFor(m => m.Price).Width("17%").Format(Format.Currency).Format(f => f.Type(Format.Currency).Precision(2));
+         columns.AddFor(m => m.Document_Path).CssClass("cell-center").Width("5%").CellTemplate(new JS("cellTemplate"));  
    
     })
     .Paging(p => p.PageSize(10))

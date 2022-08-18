@@ -35,14 +35,14 @@ a{
     text-decoration: none!important;
     color: whitesmoke!important;
 }
-.jo{
+.menu-item{
    
     text-decoration: none!important;
     color: whitesmoke!important;
   transition: text-shadow .3s;
 }
 
-.jo:hover{
+.menu-item:hover{
     color:white;
    text-shadow: 0 0 .9px #FFFFFF, 0 0 .9px #FFFFFF, 0 0 .9px #FFFFFF;
 }
@@ -54,20 +54,21 @@ a{
 }
 #right{
      position:absolute;
-  right:4.5%;
-  top:1.9%;
+  right:4%;
+  top:2.6%;
 
   border: none !important;
-   width:90px;
+   width:130px;
    height:40px;
    background:transparent;
    z-index:50;
 }
 .right-display{
+    
    user-select: none;
   position:absolute;
-  right:4.5%;
-  top:1.9%;
+  right:4%;
+  top:2.6%;
   color:white!important;
   
 }
@@ -193,7 +194,7 @@ a{
                         Guid: @customer.Id
                     </p>
                     <p>
-                       Balance: @Balance
+                       Balance: @Balance-
                     </p>
                     <p>
                            <b>Enter a deposit</b>
@@ -217,12 +218,6 @@ a{
 
     <script defer>
     
-function Check() { 
-    var PopUp = document.getElementById("PopUp");
-    PopUp.style.visibility = "visible";
-    var Panel = document.getElementById("Panel");
-
-}
 
 
 function Deposit() {
@@ -236,16 +231,10 @@ function Deposit() {
         console.log("refresh");
         location.reload(true);
     });
-    var PopUp = document.getElementById("PopUp");
-    PopUp.style.visibility = "hidden";
+   
 }
 
-function Change(){
-    var NameOfButton = document.getElementById("right");
 
-
-
-}
 
 </script>
 
@@ -256,16 +245,16 @@ function Change(){
 <div id="div1" class="div1">
 <div class="Menu">
 <div>
-    <a class="jo" asp-controller="Home" asp-action="Transactions">Transactions</a>
+    <a class="menu-item" asp-controller="Home" asp-action="Transactions">Transactions</a>
 </div>
   <div>
-    <a class="jo" asp-controller="Home" asp-action="Invoices">Invoices</a>
+    <a class="menu-item" asp-controller="Home" asp-action="Invoices">Invoices</a>
 </div>
 <div>
-    <a class="jo" asp-controller="Home" asp-action="Products">Products</a>
+    <a class="menu-item" asp-controller="Home" asp-action="Products">Products</a>
 </div>
 <div>
-    <a class="jo" asp-controller="Home" asp-action="Customers">Customers</a>
+    <a class="menu-item" asp-controller="Home" asp-action="Customers">Customers</a>
 </div>
 </div>
 

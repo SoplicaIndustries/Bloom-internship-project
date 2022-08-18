@@ -3,13 +3,13 @@
 
 <h2>Transactions</h2>
 <style>
-    .kurwa{
+    .cell-center{
           text-align: center!important  
     }
-    kurwa{
+    cell-center{
           text-align: center!important  
     }
-    #kurwa{
+    #cell-center{
   text-align: center!important  
     }
 
@@ -35,10 +35,10 @@
     .DataSource(d => d.Mvc().Controller("Transactions").LoadMethod("Get").Key("Id").LoadAction("Get"))
     .Columns(columns => {
             columns.AddFor(m => m.Description).Width("32.5%");
-        columns.AddFor(m => m.Price).Width("10%").Format(Format.Currency);;
-        columns.AddFor(m => m.Balance_After).Width("10%").Format(Format.Currency);;
-        columns.AddFor(m => m.Date).Width("15%").CssClass("kurwa");
-        columns.AddFor(m => m.Reference_Number).Width("32.5%").CssClass("kurwa");
+        columns.AddFor(m => m.Price).Width("10%").Format(Format.Currency).Format(f => f.Type(Format.Currency).Precision(2));
+        columns.AddFor(m => m.Balance_After).Width("10%").Format(Format.Currency).Format(f => f.Type(Format.Currency).Precision(2));
+        columns.AddFor(m => m.Date).Width("15%").CssClass("cell-center");
+        columns.AddFor(m => m.Reference_Number).Width("32.5%").CssClass("cell-center");
    
     })
     .Paging(p => p.PageSize(10))

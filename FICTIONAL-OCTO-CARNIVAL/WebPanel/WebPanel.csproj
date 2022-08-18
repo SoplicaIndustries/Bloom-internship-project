@@ -13,6 +13,6 @@
     <PackageReference Include="RestSharp" Version="108.0.1" />
     </ItemGroup>
 
-    <ProjectExtensions><VisualStudio><UserProperties TemplateFeatures="NETCORE" /></VisualStudio></ProjectExtensions>
+    <ProjectExtensions><VisualStudio><UserProperties appsettings_1json__JsonSchema="" TemplateFeatures="NETCORE" /></VisualStudio></ProjectExtensions>
 
 </Project>

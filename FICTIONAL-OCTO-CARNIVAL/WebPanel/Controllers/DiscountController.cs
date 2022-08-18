@@ -10,11 +10,22 @@ namespace WebPanel.Controllers
 {
     public class DiscountController : Controller
     {
+        public static decimal DiscountCalculus(decimal price,decimal discount)
+        {
+            decimal ToSend = (price * (price*discount))/100;
+
+
+            return ToSend;
+        }
+
+
+
+
         [HttpGet]
         public object Get(DataSourceLoadOptions loadOptions)
         {
             var client = new RestClient();
-            var request = new RestRequest("http://localhost:5223/api/Discounts", Method.Get);
+            var request = new RestRequest("http://10.0.60.46:5223/api/Discounts", Method.Get);
             var response = client.Execute(request);
             List<Discounts> DiscountList = JsonConvert.DeserializeObject<List<Discounts>>(response.Content);
             List<UnitsOfUsage> UnitList = UnitOfUsageController.GetUnits();
@@ -34,10 +45,16 @@ namespace WebPanel.Controllers
         public object GetDiscountsById(Guid Id, DataSourceLoadOptions options)
         {
             var client = new RestClient();
-            var request = new RestRequest("http://localhost:5223/api/Discounts", Method.Get);
+            var request = new RestRequest("http://10.0.60.46:5223/api/Discounts", Method.Get);
             var response = client.Execute(request);
             List<Discounts> DiscountList = JsonConvert.DeserializeObject<List<Discounts>>(response.Content);
             List<Discounts> filteredList = DiscountList.FindAll(c => c.Customer_Id == Id);
+            foreach(Discounts discount in filteredList)
+            {
+                discount.Discount_Percentage = discount.Discount_Percentage/100;
+                discount.Customer_Price = discount.Price - (discount.Price * discount.Discount_Percentage);
+                 
+            }
             return DataSourceLoader.Load(filteredList, options);
         }
 
@@ -49,7 +66,7 @@ namespace WebPanel.Controllers
             dis.Id = 0;
            
             values = JsonConvert.SerializeObject(dis);
-            var request = new RestRequest("http://localhost:5223/api/Discounts/", Method.Post);
+            var request = new RestRequest("http://10.0.60.46:5223/api/Discounts/", Method.Post);
             request.AddHeader("Content-Type", "application/json");
             request.AddParameter("application/json", values, ParameterType.RequestBody);
             var response = client.Execute(request);
@@ -59,7 +76,7 @@ namespace WebPanel.Controllers
         public IActionResult Delete(int key)
         {
             var client = new RestClient();
-            var request = new RestRequest($"http://localhost:5223/api/Discounts/{key}", Method.Delete);
+            var request = new RestRequest($"http://10.0.60.46:5223/api/Discounts/{key}", Method.Delete);
             var response = client.Execute(request);
             return Ok();
 

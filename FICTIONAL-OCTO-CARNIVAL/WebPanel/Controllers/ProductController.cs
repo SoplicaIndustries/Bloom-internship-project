@@ -15,7 +15,7 @@ namespace WebPanel.Controllers
         public object Get(DataSourceLoadOptions loadOptions)
         {
             var client = new RestClient();
-            var request = new RestRequest("http://localhost:5223/api/Products", Method.Get);
+            var request = new RestRequest("http://10.0.60.46:5223/api/Products", Method.Get);
             var response = client.Execute(request);
             IEnumerable<Products> ProductsList = JsonConvert.DeserializeObject<IEnumerable<Products>>(response.Content);
 
@@ -31,7 +31,7 @@ namespace WebPanel.Controllers
         public IActionResult Post(string values)
         {
             var client = new RestClient();
-            var request = new RestRequest("http://localhost:5223/api/Products/", Method.Post);
+            var request = new RestRequest("http://10.0.60.46:5223/api/Products/", Method.Post);
             request.AddHeader("Content-Type", "application/json");
             var sztif = JsonConvert.DeserializeObject<Products>(values);
             sztif.Currency_Id = 1;
@@ -52,7 +52,7 @@ namespace WebPanel.Controllers
             if (values != String.Empty)
             {
                 var client = new RestClient();
-                var request = new RestRequest("http://localhost:5223/api/Products", Method.Get);
+                var request = new RestRequest("http://10.0.60.46:5223/api/Products", Method.Get);
                 var response = client.Execute(request);
                 IEnumerable<Products> ProductsList = JsonConvert.DeserializeObject<IEnumerable<Products>>(response.Content);
 
@@ -64,7 +64,7 @@ namespace WebPanel.Controllers
 
 
 
-                request = new RestRequest($"http://localhost:5223/api/Products/{key}", Method.Put);
+                request = new RestRequest($"http://10.0.60.46:5223/api/Products/{key}", Method.Put);
                 request.AddHeader("Content-Type", "application/json");
                 string body = Newtonsoft.Json.JsonConvert.SerializeObject(ToUpdate);
                 request.AddParameter("application/json", body, ParameterType.RequestBody);
@@ -82,7 +82,7 @@ namespace WebPanel.Controllers
         public IActionResult Delete(Guid key)
         {
             var client = new RestClient();
-            var request = new RestRequest($"http://localhost:5223/api/Products/{key}", Method.Delete);
+            var request = new RestRequest($"http://10.0.60.46:5223/api/Products/{key}", Method.Delete);
             var response = client.Execute(request);
             return Ok();
 

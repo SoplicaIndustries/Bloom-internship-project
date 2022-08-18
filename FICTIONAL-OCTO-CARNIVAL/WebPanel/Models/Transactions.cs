@@ -18,7 +18,7 @@ namespace WebPanel.Models
         public Guid Customer_Id { get; set; }
         public Guid Product_Id { get; set; }
 
-
+        public string Product_Name { get; set; }
 
     }
 }
